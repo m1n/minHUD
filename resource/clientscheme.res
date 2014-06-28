@@ -2418,272 +2418,272 @@ Scheme
 		}
 		///////////////// Custom Fonterinos //////////////////
 	
-		HighwayRegular12
+		AeroRegular12
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular16
+		AeroRegular16
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular20
+		AeroRegular20
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular24
+		AeroRegular24
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular28
+		AeroRegular28
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular32
+		AeroRegular32
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular36
+		AeroRegular36
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular42
+		AeroRegular42
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayRegular48
+		AeroRegular48
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Regular"
+				"name"		"Aero Matics Regular"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
 	
-		HighwayBold12
+		AeroBold12
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold16
+		AeroBold16
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold20
+		AeroBold20
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold24
+		AeroBold24
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold28
+		AeroBold28
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold32
+		AeroBold32
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold36
+		AeroBold36
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold42
+		AeroBold42
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayBold48
+		AeroBold48
 		{
 			"1"
 			{
-				"name"		"BlueHighway-Bold"
+				"name"		"Aero Matics Bold"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed12
+		AeroItalic12
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed16
+		AeroItalic16
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed20
+		AeroItalic20
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed24
+		AeroItalic24
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed28
+		AeroItalic28
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed32
+		AeroItalic32
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed36
+		AeroItalic36
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed42
+		AeroItalic42
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		HighwayCondensed48
+		AeroItalic48
 		{
 			"1"
 			{
-				"name"		"BlueHighwayCondensed-Regular"
+				"name"		"Aero Matics Italic"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias" "1"
@@ -4688,18 +4688,18 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/blue_highway_bd.ttf"
-			"name" "BlueHighway-Bold"
+			"font" "resource/fonts/Aero_Matics_Bold.ttf"
+			"name" "Aero Matics Bold"
 		}
 		"8"
 		{
-			"font" "resource/fonts/blue_highway_cd.ttf"
-			"name" "BlueHighwayCondensed-Regular"
+			"font" "resource/fonts/Aero_Matics_Italic.ttf"
+			"name" "Aero Matics Italic"
 		}
 		"9"
 		{
-			"font" "resource/fonts/blue_highway_rg.ttf"
-			"name" "BlueHighway-Regular"
+			"font" "resource/fonts/Aero_Matics_Regular.ttf"
+			"name" "Aero Matics Regular"
 		}
 		"10"
 		{

@@ -278,10 +278,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -1017,10 +1016,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c-55"	[$WIN32]
+		"ypos"			"c75"	[$WIN32]
+		"wide"			"150"
+		"tall"			"150"
 	}	
 
 	HudTeamGoal
