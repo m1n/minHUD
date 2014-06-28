@@ -581,9 +581,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"570"
-		"ypos"		"200"	[$WIN32]
+		"ypos"		"300"	[$WIN32]
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
+		"tall"		"50"	[$WIN32]
 		"BgAlpha"	"0"
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -804,10 +804,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"-2"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
