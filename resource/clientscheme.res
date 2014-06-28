@@ -18,6 +18,28 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//Custom Hud Colorerinos//
+		
+		"Health_Normal"			"235 235 225 255"
+		"Health_Buffed"			"100 149 237 255"
+		"Health_Hurt"			"255 165 0 255"
+		
+		"AmmoClip_Normal"		"235 235 225 255"
+		"AmmoClip_Low"			"255 165 0 255"
+		
+		"AmmoNoClip_Normal"		"235 235 225 255"
+		"AmmoNoClip_Low"		"255 165 0 255"
+		
+		"AmmoReserve_Normal" 	"100 149 237 255"
+		"AmmoReserve_Low"		"25 25 112 255"
+		
+		"MedicChargeColor1"		"255 165 0 255"
+		"MedicChargeColor2"		"255 69 0 255"
+		
+		"HudWhite"				"235 235 225 255"
+		"HudShadow"				"0 0 0 200"
+		"HudBlue"				"100 149 237 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"

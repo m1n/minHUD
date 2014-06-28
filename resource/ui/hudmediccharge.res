@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"40"
+		"xpos"			"10"
 		"ypos"			"35"
 		"zpos"			"3"
 		"wide"			"150"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"41"
+		"xpos"			"11"
 		"ypos"			"36"
 		"zpos"			"3"
 		"wide"			"150"
@@ -93,7 +93,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 0 0 200"
+		"fgcolor"		"HudShadow"
 		"font"			"Quake48"
 	}	
 
@@ -123,10 +123,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"43"
+		"xpos"			"5"
 		"ypos"			"77"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"	 		"5"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -135,9 +135,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 165 0 255"
-	}		
-
+		"fgcolor_override" "MedicCharge1"
+	}			
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -155,7 +154,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 165 0 255"
+		"fgcolor_override" "MedicCharge1"
 	}
 
 	"ChargeMeter2"
@@ -175,7 +174,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 165 0 255"
+		"fgcolor_override" "MedicCharge1"
 	}
 
 	"ChargeMeter3"
@@ -195,7 +194,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 165 0 255"
+		"fgcolor_override" "MedicCharge1"
 	}
 
 	"ChargeMeter4"
@@ -215,7 +214,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 165 0 255"
+		"fgcolor_override" "MedicCharge1"
 	}
 	
 	"HealthClusterIcon"
