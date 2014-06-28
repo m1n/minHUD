@@ -197,11 +197,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"180"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -356,7 +354,7 @@
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
-		"ypos"	"440"
+		"ypos"	"540"
 		"wide"	"120"
 		"tall"  "40"
 		"visible" "1"
@@ -582,15 +580,11 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"xpos"		"570"
+		"ypos"		"200"	[$WIN32]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
-
-		"BgAlpha"	"128"
-
+		"BgAlpha"	"0"
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
@@ -1126,10 +1120,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-190"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"55"
 	}

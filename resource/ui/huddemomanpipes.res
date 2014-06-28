@@ -61,8 +61,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-5"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -135,8 +135,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-5"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"

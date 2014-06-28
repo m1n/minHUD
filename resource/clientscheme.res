@@ -1341,8 +1341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Aero Matics Regular"
+				"tall"		"36"
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1352,8 +1352,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Aero Matics Italic"
+				"tall"		"36"
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
@@ -1364,8 +1364,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Aero Matics Bold"
+				"tall"		"36"
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1375,8 +1375,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Aero Matics Italic"
+				"tall"		"36"
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
@@ -1387,8 +1387,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Aero Matics Regular"
+				"tall"		"28"
 				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1654,7 +1654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1665,7 +1665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
