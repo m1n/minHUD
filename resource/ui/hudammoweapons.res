@@ -61,8 +61,8 @@
 		"wide"			"120"
 		"tall"			"40"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"0" //1
+		"enabled"		"0" //1
 		"fillcolor"		"0 0 0 125"
 	}
 	"TeamIndicator"
