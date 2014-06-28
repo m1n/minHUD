@@ -49,13 +49,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"63"	[$WIN32]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"tall"			"55"	[$WIN32]
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -89,21 +89,35 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Quake48"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 200"
+	}
+	"HPBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HPBG"
+		"xpos"			"50"
+		"ypos"			"38"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"40"
+		"pinCorner"		"0"
+		"visible"		"0" //1
+		"enabled"		"0" //1
+		"fillcolor"		"0 0 0 125"
 	}	
 	"TeamIndicator"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"67"
+		"xpos"			"50"
 		"ypos"			"77"
 		"zpos"			"4"
-		"wide"			"65"
+		"wide"			"100"
 		"tall"	 		"5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
+		"visible" "0" //1
+		"enabled" "0" //1
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -121,7 +135,7 @@
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
 		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -137,7 +151,7 @@
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
 		"xpos_minmode"	"102"
-		"ypos"			"0"
+		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -153,7 +167,7 @@
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"85"
 		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
