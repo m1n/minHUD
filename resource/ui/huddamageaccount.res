@@ -6,7 +6,7 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"PositiveColor"			"127 255 0 255"
-		"NegativeColor"			"255 165 0 255"
+		"NegativeColor"			"255 165 30 255"
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"

@@ -1011,7 +1011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
