@@ -1138,6 +1138,7 @@
 			"use_proportional_insets" "1"
 			"font"			"AeroBold48"
 			"textAlignment"	"west"
+			"labelText"		"Training"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1333,6 +1334,7 @@
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"font"			"AeroBold48"
+			"labelText"		"Training"			
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1398,6 +1400,7 @@
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"font"			"AeroBold48"
+			"labelText"		"Training"			
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1477,6 +1480,7 @@
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"font"			"AeroBold48"
+			"labelText"		"Items"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1758,88 +1762,19 @@
 			}
 		}
 	}
-
 	"ResumeGameButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"c-285"
-		"ypos"			"120"
+		"xpos"			"30"
+		"ypos"			"30"
 		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
+		"wide"			"370"
+		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"ServerBrowserButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"CallVoteButton"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-		
-	"QuickplayChangeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"c-285"
-		"ypos"			"150"
-		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"ResumeGameButton"
-		"navDown"		"ChangeServerButton"
+		"navDown"		"PlayPVEButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
@@ -1849,8 +1784,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
+			"wide"			"325"
+			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1858,7 +1793,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"AeroBold48"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1866,14 +1801,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "MainMenuNormal"
+			"armedFgColor_override" "MainMenuHover"
+		
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 
@@ -1884,14 +1816,77 @@
 				"xpos"			"6"
 				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}
 		}
 	}
+	"QuickplayChangeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"QuickplayChangeButton"
+		"xpos"			"30"
+		"ypos"			"90"
+		"zpos"			"11"
+		"wide"			"370"
+		"tall"			"50"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"QuickplayButton"
+		"navDown"		"ServerBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"325"
+			"tall"			"48"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"AeroBold48"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "MainMenuNormal"
+			"armedFgColor_override" "MainMenuHover"
+		
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}		
 	"PlayPVEButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2018,22 +2013,21 @@
 			}
 		}
 	}
-	
 	"ChangeServerButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
+		"xpos"			"30"
+		"ypos"			"150"
 		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
+		"wide"			"370"
+		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"QuickplayChangeButton"
-		"navDown"		"CharacterSetupButton"
-		"navRight"		"Notifications_ShowButtonPanel"
+		"navUp"			"PlayPVEButton"
+		"navDown"		"ResumeGameButton"
+		"navRight"		"CreateServerButton"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -2042,8 +2036,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
+			"wide"			"325"
+			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2051,7 +2045,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"AeroBold48"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2059,14 +2053,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "MainMenuNormal"
+			"armedFgColor_override" "MainMenuHover"
+		
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 
@@ -2077,30 +2068,25 @@
 				"xpos"			"6"
 				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}
 		}
-	}
+	}	
 
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-105"
-		"ypos"			"123"
+		"xpos"			"250"
+		"ypos"			"110"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
-
-		"navLeft"		"ResumeGameButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2125,16 +2111,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
+			"border_default"	""
+			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"Button Color"
 			
 			"SubImage"
 			{
@@ -2156,17 +2142,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-85"
-		"ypos"			"123"
+		"xpos"			"270"
+		"ypos"			"110"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
-
-		"navLeft"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"RequestCoachButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2191,16 +2172,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
+			"border_default"	""
+			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"Button Color"
 			
 			"SubImage"
 			{
@@ -2218,22 +2199,16 @@
 			}				
 		}
 	}
-
 	"RequestCoachButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-65"
-		"ypos"			"123"
+		"xpos"			"290"
+		"ypos"			"110"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
-
-		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2258,13 +2233,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
+			"border_default"	""
+			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2715,12 +2690,11 @@
 			"image"			"glyph_quit"
 		}				
 	}			
-	
 	"DisconnectButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"c-300"
+		"xpos"			"50"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"150"
@@ -2731,19 +2705,22 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_Disconnect"
-		"font"			"HudFontSmallBold"
+		"font"			"AeroBold20"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine disconnect"
+		"Command"		"engine replay_confirmquit"
+
+		"navUp"			"VRModeButton"
+		"navDown"		"DisconnectButton"
+		"navLeft"		"DisconnectButton"
+		"navRight"		"NewUserForumsButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"navUp"			"QuitButton"
-		"navRight"		"NewUserForumsButton"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
