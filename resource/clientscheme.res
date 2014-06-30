@@ -39,6 +39,8 @@ Scheme
 		"HudWhite"				"235 235 225 255"
 		"HudShadow"				"0 0 0 200"
 		"HudBlue"				"100 149 237 255"
+		"MainMenuNormal"		"180 180 180 255"
+		"MainMenuHover"			"255 255 255 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2599,6 +2601,46 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		AeroBold52
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"52"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		AeroBold56
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		AeroBold60
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		AeroBold64
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"64"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}		
 		AeroItalic12
 		{
 			"1"
