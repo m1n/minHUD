@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"25"
-		"ypos"			"13"
+		"xpos"			"28"
+		"ypos"			"-4"
 		"zpos"			"2"
-		"wide"			"66"
+		"wide"			"62"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -23,7 +23,7 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"ypos"				"16"
+		"ypos"				"0"
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
@@ -41,7 +41,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"16"
-		"ypos"			"34"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -73,7 +73,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"ypos"			"33"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -92,12 +92,12 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"21"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -156,7 +156,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"20"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -183,9 +183,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"99999"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"

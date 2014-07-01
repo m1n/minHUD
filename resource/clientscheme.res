@@ -2440,6 +2440,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		AeroRegular18
+		{
+			"1"
+			{
+				"name"		"Aero Matics Regular"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		AeroRegular20
 		{
 			"1"

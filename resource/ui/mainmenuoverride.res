@@ -224,7 +224,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"600"
-		"ypos"			"400"
+		"ypos"			"420"  //le blaze it
 		"zpos"			"-99"
 		"wide"			"256"
 		"tall"			"64"
@@ -340,7 +340,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"400"
-		"ypos"			"170"
+		"ypos"			"165"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1436,8 +1436,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-59"
-		"ypos"			"245"
+		"xpos"			"c-99"
+		"ypos"			"210"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"
@@ -1456,6 +1456,7 @@
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"50"
+		"labelText"		"Items"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1480,7 +1481,6 @@
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"font"			"AeroBold48"
-			"labelText"		"Items"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2646,7 +2646,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"50"
+		"xpos"			"55"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"150"
@@ -2694,7 +2694,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"50"
+		"xpos"			"55"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"150"
@@ -2712,7 +2712,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine replay_confirmquit"
+		"Command"		"engine disconnect"
 
 		"navUp"			"VRModeButton"
 		"navDown"		"DisconnectButton"
