@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
-		"ypos"			"r162"	[$WIN32]
-		"wide"			"150"
+		"ypos"			"r185"	[$WIN32]
+		"wide"			"250"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -20,10 +20,11 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -34,7 +35,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"41"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
@@ -54,10 +55,10 @@
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
+		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"1"
+		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"115"
 		"tall"					"5"				

@@ -48,7 +48,7 @@
 		"font"			"AeroRegular16"
 		"xpos"			"5"
 		"ypos"			"-3"
-		"zpos"			"4"
+		"zpos"			"8"
 		"wide"			"33"
 		"tall"			"33"
 		"autoResize"		"1"

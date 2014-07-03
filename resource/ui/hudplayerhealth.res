@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"35"
+		"xpos"			"15"
 		"ypos"			"35"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"100"
@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"font"			"Quake48"
 		"fgcolor"		"Health_Normal"
 	}
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"34"
+		"xpos"			"14"
 		"ypos"			"36"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"100"
@@ -87,7 +87,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"font"			"Quake48"
 		"fgcolor"		"HudShadow"
 	}

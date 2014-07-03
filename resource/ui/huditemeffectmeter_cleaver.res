@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
-		"ypos"			"r162"	[$WIN32]
+		"ypos"			"r186"	[$WIN32]
 		"wide"			"150"
-		"tall"			"50"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -44,7 +44,7 @@
 		"visible"				"0"
 		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -54,10 +54,10 @@
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
+		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"1"
+		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"115"
 		"tall"					"5"				

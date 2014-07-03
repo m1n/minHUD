@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
-		"ypos"			"r162"	[$WIN32]
+		"ypos"			"r185"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -54,10 +54,10 @@
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
+		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"1"
+		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"115"
 		"tall"					"5"				

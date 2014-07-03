@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"336"	[$WIN32]
+		"xpos"			"373"	[$WIN32]
 		"ypos"			"r185"	[$WIN32]
 		"wide"			"250"
 		"tall"			"50"
@@ -54,10 +54,10 @@
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
+		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"23"
+		"xpos"					"0"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"115"
 		"tall"					"5"				

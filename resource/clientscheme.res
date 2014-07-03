@@ -2419,7 +2419,27 @@ Scheme
 			}
 		}
 		///////////////// Custom Fonterinos //////////////////
-	
+
+		AeroRegular8
+		{
+			"1"
+			{
+				"name"		"Aero Matics Regular"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}		
+		AeroRegular10
+		{
+			"1"
+			{
+				"name"		"Aero Matics Regular"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}		
 		AeroRegular12
 		{
 			"1"
