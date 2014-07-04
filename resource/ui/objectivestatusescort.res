@@ -421,7 +421,7 @@
 			"fieldName"		"CapNumPlayers"
 			"font"			"AeroRegular12"
 			"font_minmode"		"AeroRegular12"
-			"xpos"			"30"
+			"xpos"			"23"
 			"ypos"			"50"
 			"zpos"			"4"
 			"wide"			"20"

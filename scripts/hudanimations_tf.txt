@@ -735,7 +735,8 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate CircleDot FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate CircleDot FgColor "255 255 255 255" Linear 0.15 0.0
 }
 
 //===========================================

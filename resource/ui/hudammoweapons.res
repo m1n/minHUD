@@ -144,14 +144,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"Quake48"
 		"fgcolor"		"AmmoNoClip_Normal"
-		"xpos"			"10"
+		"xpos"			"75"
 		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"		
+		"textAlignment"	"west"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -161,14 +161,14 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Quake48"
 		"fgcolor"		"HudShadow"
-		"xpos"			"11"
+		"xpos"			"76"
 		"ypos"			"36"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"		
+		"textAlignment"	"west"		
 		"labelText"		"%Ammo%"
 		
 	}

@@ -2418,6 +2418,20 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		///////////////// HUD CROSSHAIRS //////////////////////////
+		
+		"FogxHair"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		
 		///////////////// Custom Fonterinos //////////////////
 
 		AeroRegular8
@@ -4777,6 +4791,11 @@ Scheme
 		{
 			"font" "resource/fonts/HANDGOTN.ttf"
 			"name" "Handel Gothic BT"
+		}
+		"11"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
 		}
 	}
 }
