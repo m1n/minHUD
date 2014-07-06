@@ -5,7 +5,7 @@
 	xHairY
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "xHairY"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -24,7 +24,7 @@
 	OpenCircle4
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCircle4"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -43,7 +43,7 @@
 	CircleLine
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "CircleLine"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -62,7 +62,7 @@
 	Dot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "Dot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -81,7 +81,7 @@
 	CircleLineDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "CircleLineDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -100,7 +100,7 @@
 	SquareDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "SquareDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -119,7 +119,7 @@
 	KonrWings
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "KonrWings"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -138,7 +138,7 @@
 	OpenCrossDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCrossDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -157,9 +157,9 @@
 	CircleDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
-		"visible" "1"
-		"enabled" "1"
+		"fieldName" "CircleDot"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-100"
@@ -176,26 +176,26 @@
 	Circle
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
-		"visible" "0"
-		"enabled" "0"
+		"fieldName" "Circle"
+		"visible" "1"
+		"enabled" "1"
 		"zpos" "2"
 
 		"xpos" "c-100"
-		"ypos" "c-98"
+		"ypos" "c-96"
 		"wide" "200"
-		"tall" "200"
+		"tall" "198"
 
 		"font" "FogxHair"
 		"labelText" "9"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "255 255 255 0"
 	}	
 	ScatterSpread
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ScatterSpread"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -214,7 +214,7 @@
 	DoubleCircle
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "DoubleCircle"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -233,7 +233,7 @@
 	DoubleCircleDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "DoubleCircleDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -252,7 +252,7 @@
 	SquareWings
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "SquareWings"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -271,7 +271,7 @@
 	SquareWingsCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "SquareWingsCross"
 		"visible" "0"
 		"enabled" "0"
 		"enabled" "1"
@@ -279,7 +279,7 @@
 
 		"xpos" "c-101"
 		"ypos" "c-98"
-		"wide" "201"
+		"wide" "202"
 		"tall" "201"
 
 		"font" "FogxHair"
@@ -291,7 +291,7 @@
 	TriWings
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "TriWings"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -310,7 +310,7 @@
 	OpenCrossLarge
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCrossLarge"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -329,7 +329,7 @@
 	OpenCrossDotLarge
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCrossDotLarge"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -348,7 +348,7 @@
 	OpenCircle2
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCircle2"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -367,7 +367,7 @@
 	ThickCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ThickCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -386,7 +386,7 @@
 	ThickCrossLarge
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ThickCrossLarge"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -405,7 +405,7 @@
 	WingsCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "WingsCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -424,14 +424,14 @@
 	Wings
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "Wings"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-101"
 		"ypos" "c-98"
-		"wide" "202"
+		"wide" "203"
 		"tall" "201"
 
 		"font" "FogxHair"
@@ -443,7 +443,7 @@
 	OpenCrossDotSmall
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCrossDotSmall"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -462,7 +462,7 @@
 	ShortWingsDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ShortWingsDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -481,7 +481,7 @@
 	ShortWings
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ShortWings"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -500,7 +500,7 @@
 	ThinOpenCrossDotLarge
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ThinOpenCrossDotLarge"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -519,7 +519,7 @@
 	ThinOpenCrossLarge
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "ThinOpenCrossLarge"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -538,7 +538,7 @@
 	OpenSquareBold
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenSquareBold"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -557,7 +557,7 @@
 	OpenSquareThin
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenSquareThin"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -576,7 +576,7 @@
 	OpenCrossSmall
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "OpenCrossSmall"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -595,26 +595,26 @@
 	OpenCircleDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
-		"visible" "0"
-		"enabled" "0"
+		"fieldName" "OpenCircleDot"
+		"visible" "1"
+		"enabled" "1"
 		"zpos" "2"
 
 		"xpos" "c-100"
 		"ypos" "c-96"
 		"wide" "200"
-		"tall" "195"
+		"tall" "194"
 
 		"font" "FogxHair"
 		"labelText" "n"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "255 255 255 200"
 	}
 	TFLogo
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "TFLogo"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -633,7 +633,7 @@
 	SidewayK
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "SidewayK"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -652,7 +652,7 @@
 	QuakeCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "QuakeCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -671,7 +671,7 @@
 	QuakeOpenCircleCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "QuakeOpenCircleCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -690,7 +690,7 @@
 	QuakeOpenCircleCrossDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "QuakeOpenCircleCrossDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -709,7 +709,7 @@
 	CircleOpenCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "CircleOpenCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -728,7 +728,7 @@
 	QuakeWingsDot
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "QuakeWingsDot"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -747,7 +747,7 @@
 	Cross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "Cross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -766,7 +766,7 @@
 	TFOpenCircle
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "TFOpenCircle"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -785,7 +785,7 @@
 	TFMedicCross
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "TFMedicCross"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -804,7 +804,7 @@
 	TFSniper
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "TFSniper"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -823,7 +823,7 @@
 	Hexagon
 	{
 		"controlName" "CExLabel"
-		"fieldName" "xHairSpread"
+		"fieldName" "Hexagon"
 		"visible" "0"
 		"enabled" "0"
 		"zpos" "2"
@@ -927,7 +927,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r480"	[$WIN32]
-		"ypos"			"r165"	[$WIN32]
+		"ypos"			"r160"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
 		"tall"			"8"
@@ -1847,7 +1847,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-55"	[$WIN32]
-		"ypos"			"c75"	[$WIN32]
+		"ypos"			"c80"	[$WIN32]
 		"wide"			"150"
 		"tall"			"150"
 	}	

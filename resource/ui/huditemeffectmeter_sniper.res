@@ -1,13 +1,13 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"	[$WIN32]
-		"ypos"			"300"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"461"	[$WIN32]
+		"ypos"			"323"	[$WIN32]
+		"wide"			"1000"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -44,7 +44,7 @@
 		"visible"				"0"
 		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -77,40 +77,40 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-20"
-		"ypos"					"36"
+		"xpos"					"25"
+		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"40"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"				"235 235 225 255"
+		"fgcolor"				"HudWhite"
 		"font"					"Quake12"
 	}
-	"ItemEffectMeterCountShadow"
+		"HeadShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-21"
-		"ypos"					"37"
+		"fieldName"				"HeadShadow"
+		"xpos"					"26"
+		"ypos"					"11"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"40"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor" 				"0 0 0 220"
+		"fgcolor"				"HudShadow"
 		"font"					"Quake12"
-	}	
+	}
 }

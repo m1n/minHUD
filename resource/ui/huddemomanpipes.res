@@ -44,7 +44,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"115"
 		"tall"					"5"				
@@ -105,7 +105,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"235 235 225 255"
+			"fgcolor"		"HudWhite"
 			"font"			"Quake16"
 		}
 		"NumPipesLabelDropshadow"
@@ -127,7 +127,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"Quake16"
-			"fgcolor"		"black"
+			"fgcolor"		"HudShadow"
 		}		
 	}
 	
@@ -179,7 +179,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"fgcolor"		"235 235 225 255"
+			"fgcolor"		"HudWhite"
 			"font"			"Quake16"
 		}
 		"NumPipesLabelDropshadow"
@@ -202,7 +202,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Quake16"
-			"fgcolor"		"black"
+			"fgcolor"		"HudShadow"
 		}			
 	}				
 }

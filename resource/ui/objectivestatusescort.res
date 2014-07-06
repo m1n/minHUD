@@ -415,17 +415,52 @@
 			}	
 		}
 
+		"CapPlayerImage"
+		{
+			"ControlName"	"ImagePanel"		
+			"fieldName"		"CapPlayerImage"
+			"xpos"			"20"
+			"xpos_minmode"		"20"
+			"ypos"			"52"
+			"ypos_minmode"		"52"
+			"zpos"			"3"
+			"wide"			"4"
+			"wide_minmode"		"4"
+			"tall"			"8"
+			"tall_minmode"		"8"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"capture_icon_white"
+			"scaleImage"	"1"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"20"
+				"wide"			"5"
+				"tall"			"10"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"45"
+			}	
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"81"
+			}	
+		}
+
 		"CapNumPlayers"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"AeroRegular12"
-			"font_minmode"		"AeroRegular12"
-			"xpos"			"23"
-			"ypos"			"50"
+			"font"			"AeroRegular10"
+			"xpos"			"25"
+			"ypos"			"53"
 			"zpos"			"4"
 			"wide"			"20"
-			"tall"			"12"
+			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
