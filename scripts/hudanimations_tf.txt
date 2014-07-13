@@ -40,7 +40,15 @@
 //	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
+//====================HUD CROSSHAIR ANIMATER=======================
 
+event DamagedPlayer
+{
+	Animate CircleDot FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate CircleDot FgColor "255 255 255 255" Linear 0.3 0.0
+}
+
+//===========================================
 event LevelInit
 {
 }
@@ -731,15 +739,7 @@ event NotificationsPresentBlinkStop
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }
 
-//===========================================
 
-event DamagedPlayer
-{
-	Animate CircleDot FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate CircleDot FgColor "255 255 255 255" Linear 0.3 0.0
-}
-
-//===========================================
 
 event SpyWarningFlash
 {
