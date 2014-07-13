@@ -10,8 +10,8 @@
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
-		"delta_item_font" "AeroBold24" 
-		"delta_item_font_big" "AeroBold24"
+		"delta_item_font" 		"AeroBold24" 
+		"delta_item_font_big" 	"AeroBold24"
 		"outline"				"1"
 
 	}	

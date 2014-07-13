@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 	/////// CUSTOM CROSSHAIRS //////
-	
+	///////Arranged in the same order as the picture included in your scripts folder///////
 	xHairY
 	{
 		"controlName" "CExLabel"
@@ -158,8 +158,8 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "CircleDot"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-100"
