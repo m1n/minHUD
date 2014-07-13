@@ -41,12 +41,6 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
-event DamagedPlayer /////ANIMATE YOUR CROSSHAIR, YO///////
-{
-	Animate CROSSHAIRNAME FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate CROSSHAIRNAME FgColor "255 255 255 255" Linear 0.3 0.0
-}
-
 event LevelInit
 {
 }
@@ -738,6 +732,12 @@ event NotificationsPresentBlinkStop
 }
 
 //===========================================
+
+event DamagedPlayer
+{
+	Animate CircleDot FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate CircleDot FgColor "255 255 255 255" Linear 0.3 0.0
+}
 
 //===========================================
 
