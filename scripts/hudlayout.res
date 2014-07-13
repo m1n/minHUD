@@ -105,9 +105,9 @@
 		"enabled" "0"
 		"zpos" "2"
 
-		"xpos" "c-104"
+		"xpos" "c-100"
 		"ypos" "c-99"
-		"wide" "201"
+		"wide" "192"
 		"tall" "200"
 
 		"font" "FogxHair"
@@ -158,14 +158,14 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "CircleDot"
-		"visible" "0"
-		"enabled" "0"
+		"visible" "1"
+		"enabled" "1"
 		"zpos" "2"
 
 		"xpos" "c-100"
 		"ypos" "c-98"
 		"wide" "200"
-		"tall" "200"
+		"tall" "201"
 
 		"font" "FogxHair"
 		"labelText" "8"
@@ -596,8 +596,8 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "OpenCircleDot"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-100"
