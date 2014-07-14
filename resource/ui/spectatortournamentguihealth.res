@@ -81,6 +81,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake12" 
+		"font"   "Quake12"
+		"outline"	"1"		
 	}	
 }

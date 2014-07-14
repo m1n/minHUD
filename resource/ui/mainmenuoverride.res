@@ -224,13 +224,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"600"
-		"ypos"			"420"  //le blaze it
+		"ypos"			"350"  //le blaze it
 		"zpos"			"-99"
-		"wide"			"256"
-		"tall"			"64"
+		"wide"			"128"
+		"tall"			"128"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
+		"image"			"replay/thumbnails/tflogo"
 		"scaleImage"	"1"
 	}	
 	

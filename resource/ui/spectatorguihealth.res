@@ -96,6 +96,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake16" 
+		"font"   "Quake16"
+		"outline"	"1"		
 	}	
 }
