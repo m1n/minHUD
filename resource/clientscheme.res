@@ -2431,9 +2431,39 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		"FogxHairLarge"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "38"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
 		///////////////// Custom Fonterinos //////////////////
-
+		AeroBoldOutline24
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+				"outline"	"1"				
+			}
+		}
+		AeroBoldOutline28
+		{
+			"1"
+			{
+				"name"		"Aero Matics Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		AeroRegular8
 		{
 			"1"

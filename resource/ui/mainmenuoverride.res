@@ -148,7 +148,7 @@
 			"use_proportional_insets" "1"
 			"font"			"AeroBold20"
 			"textAlignment"	"East"
-			"labelText"		"minHUD v0.0.1"
+			"labelText"		"minHUD v0.0.2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -224,12 +224,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"600"
-		"ypos"			"350"  //le blaze it
+		"ypos"			"350"
 		"zpos"			"-99"
 		"wide"			"128"
 		"tall"			"128"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"		//removed because this joke isn't funny anymore
+		"enabled"		"0"
 		"image"			"replay/thumbnails/tflogo"
 		"scaleImage"	"1"
 	}	

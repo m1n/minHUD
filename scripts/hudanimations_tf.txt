@@ -2,11 +2,11 @@
 
 event DamagedPlayer
 {
-	Animate ThinOpenCrossDotLarge FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate ThinOpenCrossDotLarge FgColor "255 255 255 255" Linear 0.3 0.0
+	Animate CROSSHAIR FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate CROSSHAIR FgColor "128 255 0 255" Linear 0.3 0.0
 }
 
-//=================================================================
+//===========================================
 event LevelInit
 {
 }
@@ -170,8 +170,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue			fgcolor		"100 149 237 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2		fgcolor		"100 149 237 255" Linear 0.0 0.0
 
@@ -318,8 +318,8 @@ event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"550 c0"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"0 380"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"100 100"		Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide	0.7
 }

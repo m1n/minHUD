@@ -125,11 +125,11 @@
 		"zpos" "2"
 
 		"xpos" "c-101"
-		"ypos" "c-99"
+		"ypos" "c-98"
 		"wide" "201"
-		"tall" "200"
+		"tall" "199"
 
-		"font" "FogxHair"
+		"font" "FogxHairLarge"
 		"labelText" "6"
 		"textAlignment" "center"
 
@@ -609,7 +609,7 @@
 		"labelText" "n"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 200"
+		"fgcolor" "128 255 0 255"
 	}
 	TFLogo
 	{
@@ -1068,7 +1068,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"530"	[$WIN32]
+		"xpos"		"90"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
 		"wide"		"f0"
 		"tall"		"200"
@@ -1675,7 +1675,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"215"
-		"wide"					"300"
+		"wide"					"500"
 		"tall"					"300"
 	}
 

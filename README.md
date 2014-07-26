@@ -9,6 +9,7 @@ experimental TF2 HUD for funzies
 
 2) place the contents of the zip file inside of "minHUD"
 
+
 3) put your now filled "minHUD" folder in tf/custom/
 
 

@@ -83,5 +83,22 @@
 		"textAlignment" "center" 
 		"font"   "Quake20" 
 		"outline"	"1"
-	}		
+	}
+	"PlayerStatusHealthValue2Shadow" 
+	{  
+		"ControlName" "Label" 
+		"fieldName"  "PlayerStatusHealthValue2Shadow" 
+		"xpos"   "-9" 
+		"ypos"   "6" 
+		"zpos"   "6" 
+		"wide"   "52" 
+		"tall"   "20" 
+		"visible"  "1" 
+		"enabled"  "1" 
+		"labeltext"  "%Health%" 
+		"textAlignment" "center" 
+		"fgcolor_override"	"0 0 0 255"
+		"font"   "Quake20" 
+		"outline"	"1"
+	}	
 }

@@ -100,8 +100,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"r150"	[$WIN32]
-		"ypos"			"r190"	[$WIN32]
+		"xpos"			"50"	[$WIN32]
+		"ypos"			"r200"	[$WIN32]
 		"zpos"			"5"		
 		"wide"			"100"
 		"tall"			"200"
@@ -195,7 +195,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"105"
 				"origin_y"		"-1"
@@ -205,7 +205,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"-3"
@@ -215,7 +215,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
@@ -226,7 +226,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"-4"
@@ -234,7 +234,7 @@
 			}
 			"Medic"
 			{
-				"fov"			"20"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_y"		"-220"
 				"angles_z"		"0"
@@ -244,9 +244,9 @@
 			}
 			"Heavy"
 			{
-				"fov"			"20"
+				"fov"			"25"
 				"angles_x"		"-5"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"0"
@@ -254,9 +254,9 @@
 			}
 			"Pyro"
 			{
-				"fov"			"20"
+				"fov"			"25"
 				"angles_x"		"-5"
-				"angles_y"		"-220"
+				"angles_y"		"-200"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
@@ -264,7 +264,7 @@
 			}
 			"Spy"
 			{
-				"fov"			"20"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_y"		"-220"
 				"angles_z"		"0"
@@ -274,7 +274,7 @@
 			}
 			"Engineer"
 			{
-				"fov"			"20"
+				"fov"			"25"
 				"angles_x"		"-10"
 				"angles_y"		"-220"
 				"angles_z"		"0"
