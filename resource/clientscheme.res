@@ -763,7 +763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Bold"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -773,7 +773,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Bold"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -783,7 +783,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -792,7 +792,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Bold"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -801,7 +801,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Bold"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -813,7 +813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -826,7 +826,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -839,7 +839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Regular"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -851,7 +851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -862,7 +862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -873,7 +873,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Regular"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -885,7 +885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -896,7 +896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -907,7 +907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -918,7 +918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Aero Matics Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -931,7 +931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -944,7 +944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -956,7 +956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -967,7 +967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -978,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,7 +990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1001,7 +1001,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1024,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Regular"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1035,7 +1035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Regular"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1046,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1057,7 +1057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1068,7 +1068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1079,7 +1079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Aero Matics Regular"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1090,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1103,7 +1103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Aero Matics Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2426,7 +2426,7 @@ Scheme
 			"1"
 			{
 				"name" 	"Crosshairs"
-				"tall" "28"
+				"tall" "32"
 				"weight" "0"
 				"antialias" "1"
 			}
@@ -2441,6 +2441,49 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FogxHairExtraLarge"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "45"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}		
+		"FogxHairOutline"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" 		"32"
+				"weight" 	"0"
+				"outline" 	"1"
+				"antialias" "1"
+			}
+		}
+		"FogxHairOutlineLarge"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" 		"38"
+				"weight" 	"0"
+				"outline"	"1"
+				"antialias" "1"
+			}
+		}
+		"FogxHairOutlineExtraLarge"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" 		"45"
+				"weight" 	"5"
+				"outline"	"1"
+				"antialias" "1"
+			}
+		}			
 		///////////////// Custom Fonterinos //////////////////
 		AeroBoldOutline24
 		{
@@ -2902,8 +2945,48 @@ Scheme
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
+	
 	Borders
 	{
+			  	ButtonHover
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+			}
+		}
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4424,8 +4507,8 @@ Scheme
 			"image"					"callout_bubble"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		TrainingResultsBG

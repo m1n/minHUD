@@ -43,10 +43,10 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"0"
+		"xpos"					"8"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"115"
+		"wide"					"106"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -55,6 +55,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"	"HudWhite"
+		"bgcolor_override"	"250 234 201 51"
 	}				
 		
 	"PipesPresentPanel"

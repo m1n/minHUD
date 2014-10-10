@@ -13,30 +13,6 @@
 		"visible"		"0" //1
 		"enabled"		"0" //1
 		"fillcolor"		"0 0 0 125"
-	}
-	"TeamIndicator"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
-		"xpos"			"35"
-		"ypos"			"77"
-		"zpos"			"4"
-		"wide"			"120"
-		"tall"	 		"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "0" //1
-		"enabled" "0" //1
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
 	}	
 	"Background"
 	{
@@ -73,6 +49,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"HudWhite"
 		"font"			"Quake48"
 	}
 	"ChargeLabelShadow"

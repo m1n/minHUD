@@ -125,15 +125,15 @@
 		"zpos" "2"
 
 		"xpos" "c-101"
-		"ypos" "c-98"
-		"wide" "201"
+		"ypos" "c-97"
+		"wide" "202"
 		"tall" "199"
 
-		"font" "FogxHairLarge"
+		"font" "FogxHairExtraLarge"
 		"labelText" "6"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "128 255 0 255"
 	}		
 	OpenCrossDot
 	{
@@ -177,20 +177,20 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "Circle"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-100"
-		"ypos" "c-96"
+		"ypos" "c-95"
 		"wide" "200"
-		"tall" "198"
+		"tall" "199"
 
-		"font" "FogxHair"
+		"font" "FogxHairExtraLarge"
 		"labelText" "9"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 0"
+		"fgcolor" "255 255 0 120"
 	}	
 	ScatterSpread
 	{
@@ -258,15 +258,15 @@
 		"zpos" "2"
 
 		"xpos" "c-101"
-		"ypos" "c-98"
-		"wide" "201"
-		"tall" "200"
+		"ypos" "c-97"
+		"wide" "202"
+		"tall" "202"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutlineExtraLarge"
 		"labelText" "["
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "128 255 0 255"
 	}	
 	SquareWingsCross
 	{
@@ -430,15 +430,15 @@
 		"zpos" "2"
 
 		"xpos" "c-101"
-		"ypos" "c-98"
-		"wide" "203"
-		"tall" "201"
+		"ypos" "c-97"
+		"wide" "202"
+		"tall" "202"
 
-		"font" "FogxHair"
+		"font" "FogxHairExtraLarge"
 		"labelText" "d"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "0 255 0 255"
 	}
 	OpenCrossDotSmall
 	{
@@ -453,7 +453,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutline"
 		"labelText" "e"
 		"textAlignment" "center"
 
@@ -470,9 +470,9 @@
 		"xpos" "c-101"
 		"ypos" "c-98"
 		"wide" "202"
-		"tall" "201"
+		"tall" "204"
 
-		"font" "FogxHair"
+		"font" "FogxHairExtraLarge"
 		"labelText" "f"
 		"textAlignment" "center"
 
@@ -489,9 +489,9 @@
 		"xpos" "c-101"
 		"ypos" "c-98"
 		"wide" "202"
-		"tall" "201"
+		"tall" "204"
 
-		"font" "FogxHair"
+		"font" "FogxHairExtraLarge"
 		"labelText" "g"
 		"textAlignment" "center"
 
@@ -752,16 +752,16 @@
 		"enabled" "0"
 		"zpos" "2"
 
-		"xpos" "c-103"
-		"ypos" "c-100"
-		"wide" "202"
-		"tall" "202"
+		"xpos" "c-104"
+		"ypos" "c-99"
+		"wide" "203"
+		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutline"
 		"labelText" "v"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "128 255 0 255"
 	}	
 	TFOpenCircle
 	{
@@ -771,16 +771,16 @@
 		"enabled" "0"
 		"zpos" "2"
 
-		"xpos" "c-101"
+		"xpos" "c-100"
 		"ypos" "c-100"
-		"wide" "202"
-		"tall" "203"
+		"wide" "200"
+		"tall" "204"
 
-		"font" "FogxHair"
+		"font" "FogxHairLarge"
 		"labelText" "w"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "255 255 255 120"
 	}	
 	TFMedicCross
 	{
@@ -926,9 +926,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r480"	[$WIN32]
+		"xpos"			"r475"	[$WIN32]
 		"ypos"			"r160"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"0"			// draw in front of ammo
 		"wide"			"200"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -1245,7 +1245,16 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName" "HudDamageIndicator" 
+		"visible" "1" 
+		"enabled" "1" 
+		"MinimumWidth" "10" 
+		"MaximumWidth" "10" 
+		"StartRadius" "80" 
+		"EndRadius" "80" 
+		"MinimumHeight" "30" 
+		"MaximumHeight" "60" 
+		"MinimumTime" "1" 
 	}
 
 	HudCommentary
@@ -1675,6 +1684,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"215"
+		"zpos"					"2"
 		"wide"					"500"
 		"tall"					"300"
 	}
@@ -1847,7 +1857,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-55"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"ypos"			"c73"	[$WIN32]
 		"wide"			"150"
 		"tall"			"150"
 	}	

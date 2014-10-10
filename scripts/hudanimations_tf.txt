@@ -2,8 +2,10 @@
 
 event DamagedPlayer
 {
-	Animate CROSSHAIR FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate CROSSHAIR FgColor "128 255 0 255" Linear 0.3 0.0
+	Animate ShortWings FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate ShortWings FgColor "255 255 255 255" Linear 0.3 0.0
+	Animate TFOpenCircle FgColor "255 0 0 120" Linear 0.0 0.0
+	Animate TFOpenCircle FgColor "255 255 255 120" Linear 0.3 0.0
 }
 
 //===========================================

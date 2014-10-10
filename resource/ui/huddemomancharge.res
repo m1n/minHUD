@@ -5,10 +5,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
+		"xpos"			"1"
 		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"115"
+		"zpos"			"0"
+		"wide"			"106"
 		"tall"			"5"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -17,5 +17,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+		"fgcolor_override"	"HudWhite"
+		"bgcolor_override"	"250 234 201 51"
 	}					
 }
