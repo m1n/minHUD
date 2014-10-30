@@ -2431,6 +2431,26 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FogxHairSmall"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "24"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"FogxHairExtraSmall"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "18"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}			
 		"FogxHairLarge"
 		{
 			"1"
@@ -2462,6 +2482,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FogxHairOutlineSmall"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "24"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}
+		"FogxHairOutlineExtraSmall"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "18"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
 		"FogxHairOutlineLarge"
 		{
 			"1"

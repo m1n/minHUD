@@ -32,11 +32,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"54"
-		"ypos"			"30"
+		"xpos"			"24"
+		"ypos"			"63"
 		"zpos"			"-5"
 		"wide"			"150"
-		"tall"	 		"42"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -53,14 +53,27 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
-
+	"DisguiseStatusBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HPBG"
+		"xpos"			"24"
+		"ypos"			"39"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"24"
+		"pinCorner"		"0"
+		"visible"		"1" //1
+		"enabled"		"1" //1
+		"fillcolor"		"0 0 0 125"
+	}	
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"AeroRegular20"
-		"xpos"			"91"
-		"ypos"			"32"
+		"font"			"AeroRegular16"
+		"xpos"			"61"
+		"ypos"			"38"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"24"
@@ -78,9 +91,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"AeroRegular16"
-		"xpos"			"91"
-		"ypos"			"50"
+		"font"			"AeroRegular12"
+		"xpos"			"61"
+		"ypos"			"51"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -98,8 +111,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"55"
-		"ypos"			"35"
+		"xpos"			"25"
+		"ypos"			"36"
 		"wide"			"62"
 		"tall"			"42"
 		"visible"		"1"

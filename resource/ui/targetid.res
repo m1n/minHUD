@@ -1,58 +1,43 @@
 "Resource/UI/TargetID.res"
 {
-			"TargetBG"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBG"
-			"xpos" 		"0"
-			"ypos" 		"6"
-			"zpos" 		"2"
-			"wide" 		"600"
-			"tall" 		"18"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
-			"fillcolor" "0 0 0 128"
-			
-		}
-			"TargetBackground2"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBackground2"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"2"
-			"wide" 		"600"
-			"tall" 		"18"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
-			
-			
-		}
+	"TargetBG"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetBG"
+		"xpos" 		"0"
+		"ypos" 		"8"
+		"zpos" 		"2"
+		"wide" 		"600"
+		"tall" 		"14"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"fillcolor" "0 0 0 128"
+		
+	}
+
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"50"
+		"ypos"			"23"
+		"zpos"			"2"
+		"wide"			"600"
+		"tall"	 		"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 	
-		"src_corner_height"		"0"				// pixels inside the image
-		"src_corner_width"		"0"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
@@ -144,7 +129,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"4"
+		"xpos"			"14"
 		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"62"
@@ -162,8 +147,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"30"
-		"ypos"			"23"
+		"xpos"			"70"
+		"ypos"			"24"
 		"zpos"			"12"
 		"wide"			"10"
 		"tall"			"10"

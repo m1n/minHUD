@@ -6,11 +6,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"375"	[$WIN32]
+		"ypos"			"308"	[$WIN32]
+		"wide"			"200"
+		"tall"			"40"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -24,8 +23,8 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -43,8 +42,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
@@ -59,15 +58,15 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"45"
-		"ypos"					"23"
+		"ypos"					"11"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"107"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"northwest"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

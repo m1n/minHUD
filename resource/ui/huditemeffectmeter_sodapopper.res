@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"373"	[$WIN32]
-		"ypos"			"r155"	[$WIN32]
+		"ypos"			"r156"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -58,7 +58,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"7"
-		"ypos"					"0"
+		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"107"
 		"tall"					"5"				

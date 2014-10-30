@@ -2,10 +2,8 @@
 
 event DamagedPlayer
 {
-	Animate ShortWings FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate ShortWings FgColor "255 255 255 255" Linear 0.3 0.0
-	Animate TFOpenCircle FgColor "255 0 0 120" Linear 0.0 0.0
-	Animate TFOpenCircle FgColor "255 255 255 120" Linear 0.3 0.0
+	Animate OpenCrossSmall FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate OpenCrossSmall FgColor "0 255 0 255" Linear 0.3 0.0
 }
 
 //===========================================
@@ -172,7 +170,7 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.1 0.4
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue			fgcolor		"100 149 237 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2		fgcolor		"100 149 237 255" Linear 0.0 0.0
@@ -183,7 +181,7 @@ event HudHealthBonusPulse
 // call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse 0.0
+	RunEvent HudHealthBonusPulse 0.2
 }
 
 event HudHealthBonusPulseStop
@@ -200,7 +198,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.1
 	Animate PlayerStatusHealthValue			fgcolor		"255 165 0 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2			fgcolor		"255 165 0 255" Linear 0.0 0.0
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -210,7 +208,7 @@ event HudHealthDyingPulse
 // call to loop HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse 0.0
+	RunEvent HudHealthDyingPulse 0.15
 }
 
 event HudHealthDyingPulseStop

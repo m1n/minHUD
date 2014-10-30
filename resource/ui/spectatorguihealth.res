@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"7"
+		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"23"
@@ -87,7 +87,7 @@
 	{  
 		"ControlName" "Label" 
 		"fieldName"  "PlayerStatusHealthValue2" 
-		"xpos"   "-13" 
+		"xpos"   "-15" 
 		"ypos"   "5" 
 		"zpos"   "6" 
 		"wide"   "62" 
@@ -96,14 +96,14 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake20"
+		"font"   "Quake16"
 		"outline"	"1"		
 	}
 	"PlayerStatusHealthValue2Shadow" 
 	{  
 		"ControlName" "Label" 
 		"fieldName"  "PlayerStatusHealthValue2Shadow" 
-		"xpos"   "-12" 
+		"xpos"   "-14" 
 		"ypos"   "6" 
 		"zpos"   "6" 
 		"wide"   "62" 
@@ -112,7 +112,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake20"
+		"font"   "Quake16"
 		"fgcolor_override"	"HudShadow"
 		"outline"	"1"		
 	}	

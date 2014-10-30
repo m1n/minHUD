@@ -317,7 +317,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"10"
-		"ypos"			"90"	[$WIN32]
+		"ypos"			"425"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"580"
 		"tall"			"20"

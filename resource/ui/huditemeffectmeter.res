@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
 		"ypos"			"r185"	[$WIN32]
+		"zpos"			"-2"
 		"wide"			"250"
 		"tall"			"50"
 		"MeterFG"		"White"

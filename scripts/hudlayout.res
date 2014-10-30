@@ -148,7 +148,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutline"
 		"labelText" "7"
 		"textAlignment" "center"
 
@@ -505,12 +505,12 @@
 		"enabled" "0"
 		"zpos" "2"
 
-		"xpos" "c-84"
+		"xpos" "c-87"
 		"ypos" "c-101"
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutlineSmall"
 		"labelText" "h"
 		"textAlignment" "center"
 
@@ -577,20 +577,20 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "OpenCrossSmall"
-		"visible" "0"
-		"enabled" "0"
+		"visible" "1"
+		"enabled" "1"
 		"zpos" "2"
 
 		"xpos" "c-101"
-		"ypos" "c-98"
-		"wide" "201"
-		"tall" "201"
+		"ypos" "c-97"
+		"wide" "202"
+		"tall" "203"
 
-		"font" "FogxHair"
+		"font" "FogxHairOutlineExtraLarge"
 		"labelText" "m"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "0 255 0 255"
 	}
 	OpenCircleDot
 	{
@@ -904,6 +904,7 @@
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -1103,9 +1104,7 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
