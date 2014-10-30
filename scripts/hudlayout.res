@@ -438,7 +438,7 @@
 		"labelText" "d"
 		"textAlignment" "center"
 
-		"fgcolor" "0 255 0 255"
+		"fgcolor" "255 255 255 255"
 	}
 	OpenCrossDotSmall
 	{
@@ -577,8 +577,8 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "OpenCrossSmall"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-101"
@@ -590,7 +590,7 @@
 		"labelText" "m"
 		"textAlignment" "center"
 
-		"fgcolor" "0 255 0 255"
+		"fgcolor" "255 255 255 255"
 	}
 	OpenCircleDot
 	{
@@ -609,7 +609,7 @@
 		"labelText" "n"
 		"textAlignment" "center"
 
-		"fgcolor" "128 255 0 255"
+		"fgcolor" "255 255 255 255"
 	}
 	TFLogo
 	{
@@ -761,7 +761,7 @@
 		"labelText" "v"
 		"textAlignment" "center"
 
-		"fgcolor" "128 255 0 255"
+		"fgcolor" "255 255 255 255"
 	}	
 	TFOpenCircle
 	{
