@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r86"	[$WIN32]
-		"ypos"			"r102"	[$WIN32]
+		"xpos"			"270"	[$WIN32]
+		"ypos"			"r184"	[$WIN32]
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -34,15 +34,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"12"
-		"xpos_minmode"	"36"
-		"ypos"			"7"
-		"ypos_minmode"	"14"
+		"xpos"			"-5"
+		"ypos"			"6"
 		"zpos"			"1"
-		"wide"			"27"
-		"wide_minmode"	"20"
-		"tall"			"27"
-		"tall_minmode"	"20"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"
@@ -56,8 +52,8 @@
 		"xpos"					"12"
 		"ypos"					"32"
 		"zpos"					"2"
-		"wide"					"56"
-		"tall"					"25"
+		"wide"					"0"
+		"tall"					"0"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -94,10 +90,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"24"
-		"xpos_minmode"			"40"
-		"ypos"					"11"
-		"ypos_minmode"			"18"
+		"xpos"					"-12"
+		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -106,10 +100,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSmall"
+		"fgcolor"				"HudWhite"
+		"font"					"Quake16"
 	}
 }

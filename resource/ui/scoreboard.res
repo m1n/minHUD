@@ -68,7 +68,6 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"10"
-		"xpos_hidef"	"14"
 		"ypos"			"136"
 		"zpos"			"-1"
 		"wide"			"580"
@@ -82,7 +81,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
-			"tall"			"448"
+			"tall"			"0"
 		}
 	}							
 	"BlueTeamLabel"
@@ -224,10 +223,8 @@
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"15"
-		"xpos_hidef"	"31"
+		"xpos"			"30"
 		"ypos"			"133"
-		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -238,7 +235,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"60"
 		}
 	}
 	"ServerTimeLeft"
@@ -248,10 +245,8 @@
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
-		"xpos"			"15"
-		"xpos_hidef"	"31"
+		"xpos"			"450"
 		"ypos"			"140"
-		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -262,7 +257,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"60"
 		}
 	}							
 	"BluePlayerList"
@@ -339,9 +334,7 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_hidef"	"135"
 		"ypos"			"348"	[$WIN32]
-		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"

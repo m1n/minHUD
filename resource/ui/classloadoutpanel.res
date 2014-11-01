@@ -466,7 +466,7 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
@@ -538,9 +538,9 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "0 98 255 255"
+		"defaultFgColor_override" "50 132 255 255"
 		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "0 98 255 255"
+		"depressedFgColor_override" "50 132 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

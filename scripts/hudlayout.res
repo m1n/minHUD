@@ -438,7 +438,7 @@
 		"labelText" "d"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "0 255 0 255"
 	}
 	OpenCrossDotSmall
 	{
@@ -609,7 +609,7 @@
 		"labelText" "n"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "128 255 0 255"
 	}
 	TFLogo
 	{
@@ -761,7 +761,7 @@
 		"labelText" "v"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "128 255 0 255"
 	}	
 	TFOpenCircle
 	{
@@ -1792,7 +1792,6 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
