@@ -132,7 +132,7 @@
 		"pinCorner"		"0"
 		"visible"		"1" //1
 		"enabled"		"1" //1
-		"fillcolor"		"46 43 42 255"
+		"fillcolor"		"46 43 42 100"
 	}	
 	"HeaderLine"
 	{
@@ -146,7 +146,7 @@
 		"pinCorner"		"0"
 		"visible"		"1" //1
 		"enabled"		"1" //1
-		"fillcolor"		"TanLight"
+		"fillcolor"		"255 255 255 80"
 	}
 	
 	"TopLeftDataPanel"
@@ -235,7 +235,7 @@
 			"use_proportional_insets" "1"
 			"font"			"AeroBold16"
 			"textAlignment"	"East"
-			"labelText"		"minHUD v0.1.2"
+			"labelText"		"minHUD v0.1.3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2732,7 +2732,7 @@
 		"xpos"			"55"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"150"
+		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"

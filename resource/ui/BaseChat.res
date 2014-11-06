@@ -54,7 +54,7 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"	 		"235"
+		"wide"	 		"223"
 		"tall"			"400"
 		"wrap"			"1"
 		"autoResize"	"1"

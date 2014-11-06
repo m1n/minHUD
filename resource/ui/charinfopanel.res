@@ -52,11 +52,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"50 132 255 255"
+		"fillcolor"		"128 128 128 100"
 		"tileImage"		"1"
 	}					
 	"BackgroundFooter"
@@ -80,11 +80,11 @@
 		"xpos"			"0"
 		"ypos"			"420"	//le blaze it
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"60"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"50 132 255 255"
+		"fillcolor"		"128 128 128 100"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -106,9 +106,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
+		"tabxindent"	"140"
+		"tabxdelta"		"30"
+		"tabwidth"		"200"
 		"tabheight"		"35"
 		"transition_time" "0"
 		
@@ -129,8 +129,8 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"AeroBold32"
+			"textinsetx"		"5"
+			"font"				"Quake32"
 			"selectedcolor"		"MainMenuHover"
 			"unselectedcolor"	"MainMenuNormal"	
 			"defaultBgColor_override"	"46 43 42 255"

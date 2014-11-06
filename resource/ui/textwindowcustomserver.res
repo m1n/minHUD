@@ -50,7 +50,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica24"
+		"font"			"AeroRegular24"
 		"fgcolor"		"TanLight"
 	}	
 
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Cerbetica12"
+		"font"			"AeroRegular12"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"1"
@@ -119,7 +119,7 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Cerbetica24"
+		"font"			"AeroRegular24"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanLight"
