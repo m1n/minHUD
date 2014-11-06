@@ -9,4 +9,4 @@ experimental TF2 HUD for funzies
 
 3) place "/minHUD-master/" in your custom folder
 
-enjoy your broken hud that's not even done yet :D
+enjoy your mediocre hud (๑♥ᴗ♥๑)
