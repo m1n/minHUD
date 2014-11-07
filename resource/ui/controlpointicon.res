@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"19"
+		"xpos"		"15"
 		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"14"
@@ -112,64 +112,63 @@
 		"scaleImage"	"1"	
 
 	}
-		"ImageBorderLeft"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderLeft"
-                "xpos"          "0"
-                "ypos"          "0"
-                "zpos"          "4"
-                "wide"          "3"
-                "tall"          "32"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "HudWhite"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderRight"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderRight"
-                "xpos"          "24"
-                "ypos"          "0"
-                "zpos"          "4"
-                "wide"          "4"
-                "tall"          "32"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "HudWhite"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderTop"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderTop"
-                "xpos"          "0"
-                "ypos"          "0"
-                "zpos"          "4"
-                "wide"          "32"
-                "tall"          "3"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "HudWhite"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderBottom"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderBottom"
-                "xpos"          "0"
-                "ypos"          "24"
-                "zpos"          "4"
-                "wide"          "32"
-                "tall"          "4"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "HudWhite"
-                "scaleImage"    "1"
-
-        }		
+	"ImageBorderLeft"
+    {
+        "ControlName"   "ImagePanel"           
+        "fieldName"     "ImageBorderLeft"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "4"
+        "wide"          "3"
+        "tall"          "32"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "HudWhite"
+        "scaleImage"    "1"
+    }
+      
+    "ImageBorderRight"
+    {
+        "ControlName"   "ImagePanel"           
+        "fieldName"     "ImageBorderRight"
+        "xpos"          "24"
+        "ypos"          "0"
+        "zpos"          "4"
+        "wide"          "4"
+        "tall"          "32"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "HudWhite"
+        "scaleImage"    "1"
+    }
+      
+    "ImageBorderTop"
+    {
+        "ControlName"   "ImagePanel"           
+        "fieldName"     "ImageBorderTop"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "4"
+        "wide"          "32"
+        "tall"          "3"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "HudWhite"
+        "scaleImage"    "1"
+    }
+      
+    "ImageBorderBottom"
+    {
+        "ControlName"   "ImagePanel"           
+        "fieldName"     "ImageBorderBottom"
+        "xpos"          "0"
+        "ypos"          "24"
+        "zpos"          "4"
+        "wide"          "32"
+        "tall"          "4"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "HudWhite"
+        "scaleImage"    "1"
+    }		
 }

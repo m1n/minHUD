@@ -146,7 +146,7 @@
 		"pinCorner"		"0"
 		"visible"		"1" //1
 		"enabled"		"1" //1
-		"fillcolor"		"255 255 255 80"
+		"fillcolor"		"255 255 255 100"
 	}
 	
 	"TopLeftDataPanel"
@@ -166,7 +166,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"WelcomeLabel"
-			"font"	"HudFontSmallBold"
+			"font"	"Quake14"
 			"labelText"	"#WelcomeBack"
 			"textAlignment"	"west"
 			"xpos"	"60"
@@ -211,8 +211,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VersionNumber"
-		"xpos"			"600"
-		"ypos"			"-1"
+		"xpos"			"700"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"f0"
 		"tall"			"15"
@@ -222,9 +222,9 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"55"
-			"ypos"			"0"
-			"wide"			"200"
+			"xpos"			"35"
+			"ypos"			"-1"
+			"wide"			"150"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -233,9 +233,9 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"AeroBold16"
-			"textAlignment"	"East"
-			"labelText"		"minHUD v0.1.32"
+			"font"			"Quake14"
+			"textAlignment"	"west"
+			"labelText"		"minHUD v0.1.4"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"	"6"
+		"xpos"	"9999"
 		"ypos"	"3"
 		"zpos"			"3"
 		"wide"	"12"
@@ -55,10 +55,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
+	"PlayerTourneyHealthValue"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerTourneyHealthValue"
 		"xpos"			"75"
 		"ypos"			"32"
 		"zpos"			"5"
@@ -68,10 +68,10 @@
 		"enabled"		"0"
 		"textAlignment"	"center"	
 	}
-	"PlayerStatusHealthValue2" 
+	"PlayerTourneyHealthValue2" 
 	{  
 		"ControlName" "Label" 
-		"fieldName"  "PlayerStatusHealthValue2" 
+		"fieldName"  "PlayerTourneyHealthValue2" 
 		"xpos"   "-15" 
 		"ypos"   "-2" 
 		"zpos"   "6" 
@@ -84,10 +84,10 @@
 		"font"   "Quake12"
 		"outline"	"1"		
 	}
-	"PlayerStatusHealthValue2Shadow" 
+	"PlayerTourneyHealthValue2Shadow" 
 	{  
 		"ControlName" "Label" 
-		"fieldName"  "PlayerStatusHealthValue2Shadow" 
+		"fieldName"  "PlayerTourneyHealthValue2Shadow" 
 		"xpos"   "-14" 
 		"ypos"   "-1" 
 		"zpos"   "6" 
@@ -100,5 +100,82 @@
 		"font"   "Quake12"
 		"fgcolor_override"	"HudShadow"
 		"outline"	"1"		
-	}	
+	}
+	"HealthBarBuffTourna"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarBuffTourna"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"46 116 185 255"
+		"PaintBackgroundType"	"0"
+	}
+	"HealthBarBuffTourna2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarBuffTourna2"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"4"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"40 100 160 255"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HealthBarLow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarLow"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"88"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"153 0 0 255"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HealthBarLow2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarLow2"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"88"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"153 32 32 255"
+		"PaintBackgroundType"	"0"
+	}
+
+
+	
 }

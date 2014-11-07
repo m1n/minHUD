@@ -1,9 +1,9 @@
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/StorePanel.res"
 {
-	"character_info"
+	"store_panel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"fieldName"		"store_panel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#CharInfoAndSetup"
+		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
@@ -44,47 +44,19 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}
-	"BackgroundHeader2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
-		"tileImage"		"1"
-	}					
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
-		"zpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_footer"
-		"tileImage"		"1"
-	}
-	"BackgroundFooter2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -98,7 +70,7 @@
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"			"HudWhite"
 		"scaleImage"	"1"
 	}				
 	
@@ -106,10 +78,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"140"
-		"tabxdelta"		"30"
-		"tabwidth"		"200"
-		"tabheight"		"35"
+		"tabxindent"	"120"
+		"tabxdelta"		"3"
+		"tabxfittotext"	"1"
+		"tabheight"		"34"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -123,14 +95,15 @@
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"255 255 255 255"
+			"fillcolor"		"HudWhite"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"5"
-			"font"				"Quake32"
+			"textinsetx"		"6"
+			"textAlignment"		"center"
+			"font"				"Quake28"
 			"selectedcolor"		"MainMenuHover"
 			"unselectedcolor"	"MainMenuNormal"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -140,11 +113,11 @@
 		}
 	}
 	
-	"BackButton"
+	"CloseButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"fieldName"		"CloseButton"
+		"xpos"			"c-300"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -159,12 +132,24 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"back"
+		"default"		"1"
+		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
+	"armory_panel"
+	{
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"0"
+		"ypos"				"30"
+		"wide"				"f0"
+		"tall"				"390"
+		"zpos"				"500"
+		"visible"			"0"
+	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -177,4 +162,60 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
+
+	"SupportCommunityMapMakersCheckButton"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"SupportCommunityMapMakersCheckButton"
+		"xpos"			"c275"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"font"			"HudFontSmall"
+		"labelText"		""
+		"visible"		"0"
+	}
+
+	"SupportCommunityMapMakersLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"SupportCommunityMapMakersLabel"
+		"textAlignment"		"north-west"
+		"xpos"				"c304"
+		"ypos"				"440"
+		"zpos"				"5"
+		"wide"				"70"
+		"tall"				"100"
+		"font"				"HudFontSmallest"
+		"wrap"				"1"
+		"labelText"			"#Store_ConfirmStampDonationAddTitle"
+		"visible"			"0"
+	}
+	
+	"CheckoutButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CheckoutButton"
+		"xpos"			"c170"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"130"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_Checkout"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"checkout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
+	
 }

@@ -1,9 +1,9 @@
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/StorePanel.res"
 {
-	"character_info"
+	"store_panel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"fieldName"		"store_panel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#CharInfoAndSetup"
+		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
@@ -44,47 +44,19 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}
-	"BackgroundHeader2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
-		"tileImage"		"1"
-	}					
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
-		"zpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_footer"
-		"tileImage"		"1"
-	}
-	"BackgroundFooter2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
+		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -95,10 +67,10 @@
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"3"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
+		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
 	
@@ -106,10 +78,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"140"
-		"tabxdelta"		"30"
-		"tabwidth"		"200"
-		"tabheight"		"35"
+		"tabxindent"	"10"
+		"tabxdelta"		"3"
+		"tabxfittotext"	"1"
+		"tabheight"		"34"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -120,31 +92,32 @@
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"3"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"255 255 255 255"
+			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"5"
-			"font"				"Quake32"
-			"selectedcolor"		"MainMenuHover"
-			"unselectedcolor"	"MainMenuNormal"	
+			"textinsetx"		"6"
+			"textAlignment"		"center"
+			"font"				"HudFontSmallBold"
+			"selectedcolor"		"200 187 161 255"
+			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
-			"activeborder_override"	"NoBorder"
-			"normalborder_override" "NoBorder"
+			"activeborder_override"	"OutlinedGreyBox"
+			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
 	
-	"BackButton"
+	"CloseButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"fieldName"		"CloseButton"
+		"xpos"			"c200"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -154,17 +127,29 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#GameUI_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"back"
+		"default"		"1"
+		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
+	"armory_panel"
+	{
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"0"
+		"ypos"				"30"
+		"wide"				"f0"
+		"tall"				"390"
+		"zpos"				"500"
+		"visible"			"0"
+	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
