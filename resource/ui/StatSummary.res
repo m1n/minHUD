@@ -83,23 +83,23 @@
 //			"image"			""
 //			"scaleImage"	"1"		
 //		}
-
-			"MapInfoBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"MapInfoBG"
-			"xpos"			"r302"
-			"ypos"			"2"
-			"zpos"			"4"
-			"wide"			"300"
-			"tall"			"70"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"TFThinLineBorder"
-	}
-	
+//
+//		"MapInfoBG"
+//		{
+//			"ControlName"		"ImagePanel"
+//			"fieldName"		"MapInfoBG"
+//			"xpos"			"r302"
+//			"ypos"			"2"
+//			"zpos"			"4"
+//			"wide"			"300"
+//			"tall"			"70"
+//			"autoResize"		"0"
+//			"pinCorner"		"0"
+//			"visible"		"1"
+//			"enabled"		"1"
+//			"fillcolor"		"TransparentBlack"
+//	}
+//	
 //		"ContributedLabel"
 //		{
 //			"ControlName"	"EditablePanel"
@@ -244,7 +244,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"Quake36"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"r302"
@@ -256,12 +256,30 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+	}	
+	"MapLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabelShadow"
+		"font"			"Quake36"
+		"labelText"		"%maplabel%"
+		"textAlignment"		"center"
+		"xpos"			"r301"
+		"ypos"			"8"
+		"zpos"			"50"
+		"wide"			"300"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"		"HudShadow"
 	}
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontSmallBold"
+		"font"			"AeroBold24"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"r302"
@@ -273,6 +291,24 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+	}	
+	"MapTypeShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapTypeShadow"
+		"font"			"AeroBold24"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"r301"
+		"ypos"			"33"
+		"zpos"			"50"
+		"wide"			"300"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"		"HudShadow"
 	}
 	"Background_custom"
 	{

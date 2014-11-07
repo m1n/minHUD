@@ -235,7 +235,7 @@
 			"use_proportional_insets" "1"
 			"font"			"AeroBold16"
 			"textAlignment"	"East"
-			"labelText"		"minHUD v0.1.31"
+			"labelText"		"minHUD v0.1.32"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

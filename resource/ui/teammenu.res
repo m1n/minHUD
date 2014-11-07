@@ -15,34 +15,6 @@
 		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
 	}
-	"BlueTeamBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamBG"
-		"xpos"			"c-110"
-		"ypos"			"c-20"
-		"zpos"			"0"
-		"wide"			"110"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"70 130 180 255"
-	}
-	"RedTeamBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamBG"
-		"xpos"			"c0"
-		"ypos"			"c-20"
-		"zpos"			"0"
-		"wide"			"110"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"205 50 50 255"
-	}
-
-
 
 	"SysMenu"
 	{
@@ -99,10 +71,10 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
 		"xpos"			"c-110"
-		"ypos"			"230"
+		"ypos"			"220"
 		"zpos"			"3"
 		"wide"			"110"
-		"tall"			"40"
+		"tall"			"60"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -115,10 +87,12 @@
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"font"			"Quake16"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor_override" "38 38 38 255"
+		"defaultFgColor_override" "38 38 38 255"
+		"armedFgColor_override" "255 255 255 255"
+		"border_default"	"LightBluTestBorder"
+		"border_armed"		"DarkBluTestBorder"
+		"paintbackground"	"0"
 	}
 
 	"teambutton1"
@@ -126,10 +100,10 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
 		"xpos"			"c0"
-		"ypos"			"230"
+		"ypos"			"220"
 		"zpos"			"3"
 		"wide"			"110"
-		"tall"			"40"
+		"tall"			"60"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -142,10 +116,12 @@
 		"command"		"jointeam red"
 		"team"				"4"		// team red
 		"font"			"Quake16"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor_override" "38 38 38 255"
+		"defaultFgColor_override" "38 38 38 255"
+		"armedFgColor_override" "255 255 255 255"
+		"border_default"	"LightRedTestBorder"
+		"border_armed"		"DarkRedTestBorder"
+		"paintbackground"	"0"
 	}
 
 	"teambutton2"
@@ -337,10 +313,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"c-98"
+		"xpos"			"c-73"
 		"ypos"			"c-10"
-		"zpos"			"1"
-		"wide"			"90"
+		"zpos"			"5"
+		"wide"			"40"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -378,10 +354,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c10"
+		"xpos"			"c35"
 		"ypos"			"c-10"
-		"zpos"			"1"
-		"wide"			"90"
+		"zpos"			"5"
+		"wide"			"40"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
