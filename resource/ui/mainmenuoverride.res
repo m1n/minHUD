@@ -235,7 +235,7 @@
 			"use_proportional_insets" "1"
 			"font"			"Quake14"
 			"textAlignment"	"west"
-			"labelText"		"minHUD v0.1.4"
+			"labelText"		"minHUD v1.0.0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

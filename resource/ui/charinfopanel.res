@@ -52,25 +52,26 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f0"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
+		"PaintBackgroundType"	"2"		
+		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
-	}					
+	}		
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
+		"ypos"			"420"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_footer"
+		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
 	"BackgroundFooter2"
@@ -78,13 +79,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
-		"ypos"			"420"	//le blaze it
+		"ypos"			"420"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f0"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"128 128 128 100"
+		"PaintBackgroundType"	"2"		
+		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -98,7 +100,7 @@
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"		"100 149 237 255"
 		"scaleImage"	"1"
 	}				
 	
@@ -123,7 +125,7 @@
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"255 255 255 255"
+			"fillcolor"		"100 149 237 255"
 			"scaleImage"	"1"
 		}				
 		
