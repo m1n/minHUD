@@ -42,24 +42,9 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			"replay/thumbnails/loadout_header"
 		"tileImage"		"1"
-	}
-	"BackgroundHeader2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"		
-		"fillcolor"		"15 15 15 175"
-		"tileImage"		"1"
-	}		
+	}	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,22 +56,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}
-	"BackgroundFooter2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"		
-		"fillcolor"		"15 15 15 220"
+		"image"			"replay/thumbnails/loadout_footer"
 		"tileImage"		"1"
 	}				
 	"FooterLine"

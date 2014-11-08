@@ -244,7 +244,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Quake36"
+		"font"			"Quake32"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"r302"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabelShadow"
-		"font"			"Quake36"
+		"font"			"Quake32"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"r301"
@@ -279,7 +279,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"AeroBold24"
+		"font"			"AeroBold20"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"r302"
@@ -296,7 +296,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapTypeShadow"
-		"font"			"AeroBold24"
+		"font"			"AeroBold20"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"r301"
