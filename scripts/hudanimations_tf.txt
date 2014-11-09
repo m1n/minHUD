@@ -2,8 +2,8 @@
 
 event DamagedPlayer
 {
-	Animate OpenCrossSmall FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate OpenCrossSmall FgColor "0 255 0 255" Linear 0.3 0.0
+	Animate CROSSHAIRNAME FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate CROSSHAIRNAME FgColor "0 255 0 255" Linear 0.3 0.0
 }
 
 //===========================================
