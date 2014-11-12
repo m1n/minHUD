@@ -2108,7 +2108,7 @@ Scheme
 			"1"
 			{
 				"name"		"Handel Gothic BT"
-				"tall"		"10"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2119,7 +2119,7 @@ Scheme
 			"1"
 			{
 				"name"		"Handel Gothic BT"
-				"tall"		"11"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2130,7 +2130,7 @@ Scheme
 			"1"
 			{
 				"name"		"Handel Gothic BT"
-				"tall"		"14"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

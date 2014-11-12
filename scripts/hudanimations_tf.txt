@@ -2,8 +2,8 @@
 
 event DamagedPlayer
 {
-	Animate OpenCrossSmall FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate OpenCrossSmall FgColor "0 255 0 255" Linear 0.3 0.0
+	Animate CROSSHAIRNAME FgColor "255 255 255 255" Linear 0.3 0.0 //NORMAL CROSSHAIR COLOR
+	Animate CROSSHAIRNAME FgColor "255 0 0 255" Linear 0.0 0.0 //RED FLASH
 }
 
 //===========================================
@@ -172,11 +172,8 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.1 0.4
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
-	
 	Animate PlayerStatusHealthValue			fgcolor		"100 149 237 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2		fgcolor		"100 149 237 255" Linear 0.0 0.0	
-	
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor "100 149 237 255" Accel 0.0 0.0
 	
 	Animate PlayerTourneyHealthValue			fgcolor		"HudWhite" Linear 0.0 0.0
 	Animate PlayerTourneyHealthValue2		fgcolor		"HudWhite" Linear 0.0 0.0
@@ -206,8 +203,6 @@ event HudHealthBonusPulseStop
 	
 	Animate PlayerStatusHealthValue			fgcolor		"235 235 225 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2		fgcolor		"235 235 225 255" Linear 0.0 0.0
-	
-	Animate PlayerStatusHealthValueFreezePanel FgColor "235 235 225 255" Accel 0.0 0.0
 }
 
 //===========================================
@@ -217,12 +212,9 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.1
-	
 	Animate PlayerStatusHealthValue			fgcolor		"255 165 0 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2			fgcolor		"255 165 0 255" Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValueFreezePanel FgColor "255 165 0 255" Accel 0.0 0.0
-
 	Animate HealthBarLow   Alpha       "255"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "255"           Accel 0.0 0.0
 	
@@ -243,15 +235,11 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	
 	Animate PlayerStatusHealthValue				fgcolor		"235 235 225 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2			fgcolor		"235 235 225 255" Linear 0.0 0.0
 
 	Animate HealthBarLow   Alpha       "0"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "0"           Accel 0.0 0.0
-	
-	Animate PlayerStatusHealthValueFreezePanel FgColor "235 235 225 255" Accel 0.0 0.0
-
 }
 
 //===========================================
