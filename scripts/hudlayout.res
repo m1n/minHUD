@@ -15,7 +15,7 @@
 		"wide" "200"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "`"
 		"textAlignment" "center"
 
@@ -34,7 +34,7 @@
 		"wide" "200"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "1"
 		"textAlignment" "center"
 
@@ -53,7 +53,7 @@
 		"wide" "201"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "2"
 		"textAlignment" "center"
 
@@ -72,7 +72,7 @@
 		"wide" "200"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "3"
 		"textAlignment" "center"
 
@@ -91,7 +91,7 @@
 		"wide" "201"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "4"
 		"textAlignment" "center"
 
@@ -110,7 +110,7 @@
 		"wide" "192"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "5"
 		"textAlignment" "center"
 
@@ -118,23 +118,22 @@
 	}		
 	KonrWings
 	{
-		"controlName" "CExLabel"
-		"fieldName" "KonrWings"
-		"visible" "0"
-		"enabled" "0"
-		"zpos" "2"
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KonrWings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
 
-		"xpos" "c-101"
-		"ypos" "c-97"
-		"wide" "202"
-		"tall" "199"
-
-		"font" "FogxHairExtraLarge"
-		"labelText" "6"
-		"textAlignment" "center"
-
-		"fgcolor" "128 255 0 255"
-	}		
+		"xpos"			"c-108"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"KonrWings24"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}	
 	OpenCrossDot
 	{
 		"controlName" "CExLabel"
@@ -148,7 +147,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHairOutline"
+		"font" "Outline32"
 		"labelText" "7"
 		"textAlignment" "center"
 
@@ -167,7 +166,7 @@
 		"wide" "200"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "8"
 		"textAlignment" "center"
 
@@ -186,7 +185,7 @@
 		"wide" "200"
 		"tall" "199"
 
-		"font" "FogxHairExtraLarge"
+		"font" "Crosshair46"
 		"labelText" "9"
 		"textAlignment" "center"
 
@@ -205,7 +204,7 @@
 		"wide" "203"
 		"tall" "199"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "0"
 		"textAlignment" "center"
 
@@ -224,7 +223,7 @@
 		"wide" "203"
 		"tall" "199"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "-"
 		"textAlignment" "center"
 
@@ -243,7 +242,7 @@
 		"wide" "203"
 		"tall" "199"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "="
 		"textAlignment" "center"
 
@@ -262,7 +261,7 @@
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHairOutlineExtraLarge"
+		"font" "Outline44"
 		"labelText" "["
 		"textAlignment" "center"
 
@@ -282,7 +281,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "]"
 		"textAlignment" "center"
 
@@ -301,7 +300,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "\"
 		"textAlignment" "center"
 
@@ -320,7 +319,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" ","
 		"textAlignment" "center"
 
@@ -339,7 +338,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "."
 		"textAlignment" "center"
 
@@ -358,7 +357,7 @@
 		"wide" "200"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "/"
 		"textAlignment" "center"
 
@@ -374,10 +373,10 @@
 
 		"xpos" "c-100"
 		"ypos" "c-99"
-		"wide" "201"
+		"wide" "200"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair20"
 		"labelText" "a"
 		"textAlignment" "center"
 
@@ -396,7 +395,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "b"
 		"textAlignment" "center"
 
@@ -415,7 +414,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "c"
 		"textAlignment" "center"
 
@@ -434,7 +433,7 @@
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHairExtraLarge"
+		"font" "Crosshair46"
 		"labelText" "d"
 		"textAlignment" "center"
 
@@ -453,7 +452,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHairOutline"
+		"font" "Outline32"
 		"labelText" "e"
 		"textAlignment" "center"
 
@@ -472,7 +471,7 @@
 		"wide" "202"
 		"tall" "204"
 
-		"font" "FogxHairExtraLarge"
+		"font" "Crosshair46"
 		"labelText" "f"
 		"textAlignment" "center"
 
@@ -491,7 +490,7 @@
 		"wide" "202"
 		"tall" "204"
 
-		"font" "FogxHairExtraLarge"
+		"font" "Crosshair46"
 		"labelText" "g"
 		"textAlignment" "center"
 
@@ -510,7 +509,7 @@
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHairOutlineSmall"
+		"font" "Outline24"
 		"labelText" "h"
 		"textAlignment" "center"
 
@@ -529,7 +528,7 @@
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "i"
 		"textAlignment" "center"
 
@@ -548,7 +547,7 @@
 		"wide" "202"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "j"
 		"textAlignment" "center"
 
@@ -567,7 +566,7 @@
 		"wide" "202"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "k"
 		"textAlignment" "center"
 
@@ -586,7 +585,7 @@
 		"wide" "202"
 		"tall" "203"
 
-		"font" "FogxHairOutlineExtraLarge"
+		"font" "Outline44"
 		"labelText" "m"
 		"textAlignment" "center"
 
@@ -605,7 +604,7 @@
 		"wide" "200"
 		"tall" "194"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "n"
 		"textAlignment" "center"
 
@@ -624,7 +623,7 @@
 		"wide" "200"
 		"tall" "195"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "o"
 		"textAlignment" "center"
 
@@ -643,7 +642,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "p"
 		"textAlignment" "center"
 
@@ -662,7 +661,7 @@
 		"wide" "201"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "q"
 		"textAlignment" "center"
 
@@ -681,7 +680,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "r"
 		"textAlignment" "center"
 
@@ -700,7 +699,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "s"
 		"textAlignment" "center"
 
@@ -719,7 +718,7 @@
 		"wide" "202"
 		"tall" "202"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "t"
 		"textAlignment" "center"
 
@@ -738,7 +737,7 @@
 		"wide" "202"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "u"
 		"textAlignment" "center"
 
@@ -757,7 +756,7 @@
 		"wide" "203"
 		"tall" "201"
 
-		"font" "FogxHairOutline"
+		"font" "Outline32"
 		"labelText" "v"
 		"textAlignment" "center"
 
@@ -776,7 +775,7 @@
 		"wide" "200"
 		"tall" "204"
 
-		"font" "FogxHairLarge"
+		"font" "Crosshair38"
 		"labelText" "w"
 		"textAlignment" "center"
 
@@ -795,7 +794,7 @@
 		"wide" "200"
 		"tall" "200"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "x"
 		"textAlignment" "center"
 
@@ -814,7 +813,7 @@
 		"wide" "201"
 		"tall" "201"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "y"
 		"textAlignment" "center"
 
@@ -833,7 +832,7 @@
 		"wide" "202"
 		"tall" "203"
 
-		"font" "FogxHair"
+		"font" "Crosshair32"
 		"labelText" "z"
 		"textAlignment" "center"
 
@@ -1082,9 +1081,9 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
+		"zpos"		"2"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -1964,9 +1963,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-190"
+		"xpos"					"c-50"
 		"ypos"					"5"
-		"wide"					"125"
+		"wide"					"130"
 		"tall"					"55"
 	}
 	

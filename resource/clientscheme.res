@@ -36,6 +36,9 @@ Scheme
 		"MedicChargeColor1"		"255 165 0 255"
 		"MedicChargeColor2"		"255 69 0 255"
 		
+		"DamageNumber"			"255 165 30 255"
+		"HealNumber"			"127 255 0 255"
+		
 		"HudWhite"				"235 235 225 255"
 		"HudShadow"				"0 0 0 200"
 		"HudBlue"				"100 149 237 255"
@@ -2108,7 +2111,7 @@ Scheme
 			"1"
 			{
 				"name"		"Handel Gothic BT"
-				"tall"		"10"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2119,7 +2122,7 @@ Scheme
 			"1"
 			{
 				"name"		"Handel Gothic BT"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2419,29 +2422,10 @@ Scheme
 			}
 		}
 		
-		///////////////// HUD CROSSHAIRS //////////////////////////
+	 ///////////////// HUD CROSSHAIRS //////////////////////////		
+	///////////////// FOG'S CROSSHAIRS //////////////////////////
 		
-		"FogxHair"
-		{
-			"1"
-			{
-				"name" 	"Crosshairs"
-				"tall" "32"
-				"weight" "0"
-				"antialias" "1"
-			}
-		}
-		"FogxHairSmall"
-		{
-			"1"
-			{
-				"name" 	"Crosshairs"
-				"tall" "24"
-				"weight" "0"
-				"antialias" "1"
-			}
-		}
-		"FogxHairExtraSmall"
+		"Crosshair18"
 		{
 			"1"
 			{
@@ -2450,28 +2434,186 @@ Scheme
 				"weight" "0"
 				"antialias" "1"
 			}
-		}			
-		"FogxHairLarge"
+		}					
+		"Crosshair20"
 		{
 			"1"
 			{
 				"name" 	"Crosshairs"
-				"tall" "38"
-				"weight" "0"
-				"antialias" "1"
-			}
-		}
-		"FogxHairExtraLarge"
-		{
-			"1"
-			{
-				"name" 	"Crosshairs"
-				"tall" "45"
+				"tall" "20"
 				"weight" "0"
 				"antialias" "1"
 			}
 		}		
-		"FogxHairOutline"
+		"Crosshair22"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "22"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}			
+		"Crosshair24"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "24"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}		
+		"Crosshair26"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "26"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}			
+		"Crosshair28"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}			
+		"Crosshair30"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}					
+		"Crosshair32"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "32"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}		
+		"Crosshair36"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "36"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}		
+		"Crosshair40"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "40"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		"Crosshair44"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "44"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}		
+
+		"Outline18"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "18"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline20"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "20"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline22"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "22"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}
+		"Outline24"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "24"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline26"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "26"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline28"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline30"
+		{
+			"1"
+			{
+				"name" 	"Crosshairs"
+				"tall" "30"
+				"weight" "0"
+				"outline"	"1"				
+				"antialias" "1"
+			}
+		}		
+		"Outline32"
 		{
 			"1"
 			{
@@ -2481,51 +2623,93 @@ Scheme
 				"outline" 	"1"
 				"antialias" "1"
 			}
-		}
-		"FogxHairOutlineSmall"
+		}	
+		"Outline36"
 		{
 			"1"
 			{
 				"name" 	"Crosshairs"
-				"tall" "24"
-				"weight" "0"
-				"outline"	"1"				
-				"antialias" "1"
-			}
-		}
-		"FogxHairOutlineExtraSmall"
-		{
-			"1"
-			{
-				"name" 	"Crosshairs"
-				"tall" "18"
-				"weight" "0"
-				"outline"	"1"				
+				"tall" 		"36"
+				"weight" 	"0"
+				"outline"	"1"
 				"antialias" "1"
 			}
 		}		
-		"FogxHairOutlineLarge"
+		"Outline40"
 		{
 			"1"
 			{
 				"name" 	"Crosshairs"
-				"tall" 		"38"
+				"tall" 		"40"
 				"weight" 	"0"
 				"outline"	"1"
 				"antialias" "1"
 			}
 		}
-		"FogxHairOutlineExtraLarge"
+		"Outline44"
 		{
 			"1"
 			{
 				"name" 	"Crosshairs"
-				"tall" 		"45"
+				"tall" 		"44"
 				"weight" 	"5"
 				"outline"	"1"
 				"antialias" "1"
 			}
-		}			
+		}
+			
+		"KonrWings16"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWingsOutline24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		"KonrWings32"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings40"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
 		///////////////// Custom Fonterinos //////////////////
 		AeroBoldOutline24
 		{
@@ -5053,5 +5237,10 @@ Scheme
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
+		"12" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}		
 	}
 }
