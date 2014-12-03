@@ -245,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"AeroRegular"
+				"font"			"AeroRegular12"
 				"xpos"			"6"
 				"ypos"			"6"
 				"zpos"			"5"

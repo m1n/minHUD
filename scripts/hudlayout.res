@@ -577,7 +577,7 @@
 		"controlName" "CExLabel"
 		"fieldName" "OpenCrossSmall"
 		"visible" "0"
-		"enabled" "0"
+		"enabled" "0"		
 		"zpos" "2"
 
 		"xpos" "c-101"
@@ -589,7 +589,7 @@
 		"labelText" "m"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "0 255 0 255"
 	}
 	OpenCircleDot
 	{

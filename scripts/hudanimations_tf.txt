@@ -2,7 +2,7 @@
 
 event DamagedPlayer
 {
-	Animate Cross CROSSHAIRNAME "255 255 255 255" Linear 0.3 0.0  //Your NORMAL crosshair color
+	Animate Cross CROSSHAIRNAME "0 255 0 255" Linear 0.3 0.0  //Your NORMAL crosshair color
 	Animate CROSSHAIRNAME FgColor "255 0 0 255" Linear 0.0 0.0  //Your DAMAGE crosshair color
 }
 

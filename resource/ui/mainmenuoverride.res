@@ -241,7 +241,7 @@
 			"default"		"1"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/snoop.wav"
+			"sound_released"	"UI/versionnumber.wav"
 			
 			"border_default"	""
 			"border_armed"		""
@@ -548,7 +548,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay/thumbnails/button_MOTD"
 				"scaleImage"	"1"
 			}
 		}
@@ -929,8 +929,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"200"
-		"ypos"			"380"
+		"xpos"			"180"
+		"ypos"			"378"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -1014,14 +1014,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"5"
+				"ypos"			"5"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"17"
+				"tall"			"17"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"replay/thumbnails/button_Alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -2380,8 +2380,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_tutorial"
@@ -2956,7 +2956,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"6"
 			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"14"

@@ -72,7 +72,7 @@
 	{  
 		"ControlName" "Label" 
 		"fieldName"  "PlayerTourneyHealthValue2" 
-		"xpos"   "-15" 
+		"xpos"   "-14" 
 		"ypos"   "-2" 
 		"zpos"   "6" 
 		"wide"   "52" 

@@ -1,0 +1,69 @@
+						=================================
+							HOW TO CUSTOMIZE YOUR HUD
+						=================================
+-I'd recommend using notepad++ for this, makes your life 103 times easier.
+-My personal favorite website for RGB codes is http://www.rapidtables.com/web/color/RGB_Color.htm .
+-Most changes CAN be reloaded if you type "hud_reloadscheme" in console. I recommend binding this to a key for maximum efficiency when editing your crosshair.
+
+////////////////////////////
+//USING A CUSTOM CROSSHAIR//
+////////////////////////////
+
+1) Open "/minHUD-master/"
+2) Go to "/minHUD-master/scripts"
+	
+	Inside should be 3 files: hudlayout.res, hudanimations_tf.txt, and a picture called "Fog's crosshairs v3"
+
+3) Open "Fog's crosshairs v3" and see which crosshair you like
+4) Open hudlayout.res
+5) Search for the crosshair you chose. 
+
+	I organized them all in the same order as the picture, but using CTRL+f in your text editor and searching for the labeltext (IN QUOTES) will probably be faster. The labeltext is the letter or number beneath the crossahair in the picture. If you wanted, say, a cross as your crosshair, you would search for "o" An exception to this rule is KonrWings, because it's a seperate font from the other crosshairs
+
+6) Once you've found the crosshair you want change "visible" and "enabled" to 1.
+
+
+/////////////////////////////////////
+//CUSTOMIZING YOUR CUSTOM CROSSHAIR//
+/////////////////////////////////////
+
+
+To CHANGE TO COLOR OF YOUR CROSSHAIR
+-Change the "fgcolor" value with and RBG code of your choice
+
+To MOVE YOUR CROSSHAIR
+-Adjust the "xpos" and "ypos" values of your crosshair. For more precise movements, try adjusting the "wide" and "tall" values. The crosshairs should be centered for 1920x1080, but if you don't use those resoultions you're going to have to do it yourself. Sorry, nothing I can do ¯\_(?)_/¯
+
+To ENABLE/DISABLE AN OUTLINE FOR YOUR CROSSHAIR
+-Change the "font" value from "Crosshair#" to "Outline#"* or vice-versa
+	*Please note that the fonts ARE case-sensitive!
+
+To CHANGE THE SIZE OF YOUR CROSSHAIR
+-Change the number "font" value.**
+	**Valid sizes are 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, and 44
+
+EXAMPLES:
+	"Crosshair32" ===> "Crosshair36"
+	"Outline32" ===> "Outline36"
+	
+To ANIMATE YOUR CROSSHAIR
+-Go to your minHUD/scripts folder and replace "CROSSHAIRNAME" with the field name of your crosshair (OpenCrossDot, QuakeCross, TFLogo, etc.)
+	It defaults to flash red when you do damage and return to white. Remember to replace the "255 255 255 255" with the same RGB code as your crosshair.
+	
+
+///////////////////////////////////
+//CHANGING THE COLORS OF YOUR HUD//
+///////////////////////////////////
+
+1) Open "/minHUD-master/"
+2) Go to "/minHUD-master/resource"
+	
+	Inside should be two folders and 4 .res files
+	
+3) Open "clientscheme.res"
+	
+	Quick note about editing your clientscheme: Unfortunately, any change you make here WILL NOT TAKE EFFECT UNTIL YOU RESTART TF2.
+	
+4) At the top of the file is most of the stuff you're going to want to change if you're just changing the color of your in game junk. 
+	
+	Most of these are pretty self explanitory, just change the RGB codes to whatever RGB code you want. Eventually I'm going to include seperate versions of the clientscheme for other premade color palettes, but for now the world is your oyster.
