@@ -211,7 +211,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VersionNumber"
-		"xpos"			"700"
+		"xpos"			"490"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"f0"
@@ -241,7 +241,7 @@
 			"default"		"1"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/versionnumber.wav"
+			"sound_released"	"UI/snoop.wav"
 			
 			"border_default"	""
 			"border_armed"		""
