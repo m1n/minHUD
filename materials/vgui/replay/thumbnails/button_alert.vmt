@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/button_alert"
+	"$basetexture" "vgui/replay/thumbnails/button_alert"
 	"$nolod" 1
 	"$translucent" 1
 	"$vertexcolor" 1

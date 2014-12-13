@@ -577,7 +577,7 @@
 		"controlName" "CExLabel"
 		"fieldName" "OpenCrossSmall"
 		"visible" "0"
-		"enabled" "0"		
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-101"
@@ -589,7 +589,7 @@
 		"labelText" "m"
 		"textAlignment" "center"
 
-		"fgcolor" "0 255 0 255"
+		"fgcolor" "255 255 255 255"
 	}
 	OpenCircleDot
 	{
@@ -915,7 +915,7 @@
 		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c70"	[$WIN32]
+		"xpos"	"c40"	[$WIN32]
 		"ypos"	"c20"	[$WIN32]
 		"wide"	"150"
 		"tall"	"120"
@@ -926,7 +926,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"269"	[$WIN32]
+		"xpos"			"r475"	[$WIN32]
 		"ypos"			"r160"	[$WIN32]
 		"zpos"			"0"			// draw in front of ammo
 		"wide"			"200"
@@ -1424,8 +1424,8 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"500"
-		"ypos"		"290"	[$WIN32]
+		"xpos"		"570"
+		"ypos"		"300"	[$WIN32]
 		"wide"		"500"
 		"tall"		"50"	[$WIN32]
 		"BgAlpha"	"0"
@@ -1853,7 +1853,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"262"	[$WIN32]
+		"xpos"			"c-55"	[$WIN32]
 		"ypos"			"c73"	[$WIN32]
 		"wide"			"150"
 		"tall"			"150"

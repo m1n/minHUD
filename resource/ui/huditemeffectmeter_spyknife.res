@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
 		"ypos"			"r185"	[$WIN32]
+		"zpos"			"-2"
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -59,7 +60,7 @@
 		"xpos"					"7"
 		"ypos"					"25"
 		"zpos"					"2"
-		"wide"					"107"
+		"wide"					"105"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

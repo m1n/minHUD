@@ -6,9 +6,9 @@
 		"fieldName"		"scoreinfo"
 		"xpos"			"c-300"
 		"ypos"			"31"		
-		"wide"			"600"
+		"wide"			"f0"
 		"wide_minmode"	"f0"
-		"tall"			"448"
+		"tall"			"f0"
 		"tall_minmode"	"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -29,8 +29,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"10"
-		"xpos_minmode"			"100"
+		"xpos"			"100"
+		"xpos_minmode"			"120"
 		"ypos"			"108"
 		"ypos_minmode"	"376"		
 		"wide"			"290"
@@ -52,8 +52,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"300"		
-		"xpos_minmode"	"390"
+		"xpos"			"390"		
+		"xpos_minmode"	"410"
 		"ypos"			"108"
 		"ypos_minmode"			"376"
 		"wide"			"290"
@@ -75,8 +75,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"10"		
-		"xpos_minmode"			"100"
+		"xpos"			"100"		
+		"xpos_minmode"			"120"
 		"ypos"			"136"		
 		"ypos_minmode"			"266"
 		"zpos"			"-1"
@@ -95,7 +95,7 @@
 			"ypos"			"0"
 			"tall"			"0"
 		}
-	}							
+	}	
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -103,9 +103,10 @@
 		"font"			"AeroRegular36"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"15" [!$OSX]
+		"xpos"			"115" [!$OSX]
 		"xpos"			"15" [$OSX]
 		"xpos_minmode"	"99999"
+		"xpos_hidef"		"40"
 		"ypos"			"106"	[$WIN32]
 		"ypos_minmode"			"99999"		
 		"wide"			"140"
@@ -128,8 +129,8 @@
 		"font_minmode"			"AeroBold42"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"190"
-		"xpos_minmode"	"275"
+		"xpos"			"275"
+		"xpos_minmode"	"295"
 		"ypos"			"84" 
 		"ypos_minmode"			"363"		
 		"zpos"			"4"
@@ -153,8 +154,9 @@
 		"font_minmode"			"AeroRegular20"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"150"
-		"xpos_minmode"	"200"
+		"xpos"			"220"
+		"xpos_minmode"	"220"
+		"xpos_hidef"		"100"
 		"ypos"			"108"
 		"ypos_minmode"			"370"		
 		"wide"			"100"
@@ -176,7 +178,7 @@
 		"font"			"AeroRegular36"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"445" [!$OSX]
+		"xpos"			"525" [!$OSX]
 		"xpos"			"445" [$OSX]
 		"xpos_minmode"	"99999"
 		"ypos"			"106"	[$WIN32]
@@ -201,8 +203,8 @@
 		"font_minmode"			"AeroBold42"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"310"
-		"xpos_minmode"	"400"
+		"xpos"			"400"
+		"xpos_minmode"	"420"
 		"ypos"			"84"
 		"ypos_minmode"			"363"		
 		"zpos"			"4"
@@ -226,8 +228,8 @@
 		"font_minmode"			"AeroRegular20"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"350"		
-		"xpos_minmode"			"480"
+		"xpos"			"460"		
+		"xpos_minmode"			"500"
 		"ypos"			"108"
 		"ypos_minmode"			"370"		
 		"wide"			"100"
@@ -246,14 +248,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Quake16"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"textAlignment_minmode"		"east"
-		"xpos"			"12"
-		"xpos_minmode"			"r395"
-		"ypos"			"90"		
-		"ypos_minmode"			"250"
+		"xpos"			"5"
+		"ypos"			"0"		
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -271,15 +270,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Quake12"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
-		"xpos"			"284"
-		"ypos"			"90"
+		"xpos"			"r305"
+		"ypos"			"-2"
 		"wide"			"300"
-		"wide_minmode"	"0"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
@@ -295,8 +292,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"10"
-		"xpos_minmode"	"100"
+		"xpos"			"100"
+		"xpos_minmode"	"120"
 		"ypos"			"150"
 		"ypos_minmode"	"266"
 		"zpos"			"20"
@@ -320,8 +317,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"300"
-		"xpos_minmode"	"390"
+		"xpos"			"390"
+		"xpos_minmode"	"410"
 		"ypos"			"150"
 		"ypos_minmode"	"266"
 		"zpos"			"20"
@@ -345,15 +342,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"AeroRegular12"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"12"
-		"xpos_minmode"	"100"
-		"ypos"			"133"	[$WIN32]		
-		"ypos_minmode"			"250"	[$WIN32]
+		"xpos"			"5"
+		"ypos"			"r17"	[$WIN32]		
 		"zpos"			"4"
-		"wide"			"580"
+		"wide"			"f0"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -393,11 +388,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"10"
-		"ypos"			"358"	[$WIN32]
+		"xpos"			"100"
+		"ypos"			"358"		
+		"xpos_minmode"			"42"
+		"ypos_minmode"			"266"
 		"zpos"			"2"
-		"wide_minmode"	"0"
-		"tall_minmode"	"0"		
+		"wide_minmode"	"75"
+		"tall_minmode"	"128"		
 		"wide"			"580"
 		"tall"			"70"
 		"autoResize"	"0"
@@ -405,7 +402,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 153"		
+		"fillcolor_minmode"		"0 0 0 125"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -460,14 +458,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"AeroRegular12"
+		"font"			"Quake16"
 		"labelText"		"%mapname%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"textAlignment_minmode"	"west"
-		"xpos"			"415"		
-		"xpos_minmode"			"100"
-		"ypos"			"353"		
-		"ypos_minmode"			"240"
+		"xpos"			"5"		
+		"ypos"			"17"		
 		"zpos"			"3"
 		"wide"			"165"
 		"tall"			"20"
@@ -740,10 +736,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"0"
-		"ypos"			"360"		
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
+		"xpos"			"150"
+		"ypos"			"360"			
+		"xpos_minmode"			"47"
+		"ypos_minmode"			"270"		
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
@@ -791,7 +787,26 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
+		"Colon"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Colon"
+			"font"			"AeroRegular36"
+			"labelText"		":"
+			"textAlignment"		"center"
+			"xpos"			"-15"
+			"ypos"			"-12"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"0"
+			"tall"			"0"			
+			"wide_minmode"			"95"
+			"tall_minmode"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}		
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -838,7 +853,7 @@
 			"labelText"		"%kills%"
 			"textAlignment"		"center"
 			"xpos"			"0"			
-			"xpos_minmode"	"-25"
+			"xpos_minmode"	"-35"
 			"ypos"			"-35"			
 			"ypos_minmode"	"-35"
 			"zpos"			"3"
@@ -857,9 +872,9 @@
 			"labelText"		"%deaths%"
 			"textAlignment"		"center"
 			"xpos"			"0"			
-			"xpos_minmode"			"-25"
+			"xpos_minmode"			"1"
 			"ypos"			"0"
-			"ypos_minmode"			"0"
+			"ypos_minmode"			"-35"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"100"
@@ -1083,16 +1098,18 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"AeroRegular24"
+			"font"			"AeroRegular24"			
+			"font_minmode"			"AeroRegular16"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
-			"textAlignment"		"east"
+			"textAlignment"		"east"			
+			"textAlignment_minmode"		"center"
 			"xpos"			"320"	[$WIN32]
-			"ypos"			"7"	[$WIN32]
+			"ypos"			"7"				
+			"xpos_minmode"			"-15"	[$WIN32]
+			"ypos_minmode"			"95"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
 			"tall"			"28"			
-			"wide_minmode"	"0"	
-			"tall_minmode"	"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1165,9 +1182,9 @@
 			"textAlignment"		"west"
 			"textAlignment_minmode"		"center"
 			"xpos"			"420"
-			"xpos_minmode"			"23"	//blaze it fgt
+			"xpos_minmode"			"-18"	//blaze it fgt
 			"ypos"			"7"
-			"ypos_minmode"			"10"
+			"ypos_minmode"			"75"
 			"zpos"			"3"		
 			"wide"			"100"
 			"tall"			"28"
@@ -1353,16 +1370,18 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"AeroRegular24"
+			"font"			"AeroRegular24"			
+			"font_minmode"			"AeroRegular16"
 			"labelText"		"#TF_Scoreboard_Damage"
-			"textAlignment"	"east"
+			"textAlignment"	"east"			
+			"textAlignment_minmode"	"center"
 			"xpos"			"320"
-			"ypos"			"30"
+			"ypos"			"30"			
+			"xpos_minmode"			"-15"
+			"ypos_minmode"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"28"			
-			"wide_minmode"			"0"
-			"tall_minmode"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1379,9 +1398,9 @@
 			"textAlignment"	"west"		[$WIN32]			
 			"textAlignment_minmode"	"center"		[$WIN32]
 			"xpos"			"420"	[$WIN32]
-			"xpos_minmode"	"23"	[$WIN32]
+			"xpos_minmode"	"-18"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
-			"ypos_minmode"	"30"	[$WIN32]
+			"ypos_minmode"	"50"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"28"

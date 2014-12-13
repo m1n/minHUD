@@ -41,7 +41,12 @@ Scheme
 		
 		"HudWhite"				"235 235 225 255"
 		"HudShadow"				"0 0 0 200"
+		
 		"HudBlue"				"100 149 237 255"
+		"HudPurple"				"130 104 238 255"
+		"HudOrange"				"255 139 54 255"
+		"HudGreen"				"109 230 84 255"
+		
 		"MainMenuNormal"		"180 180 180 255"
 		"MainMenuHover"			"255 255 255 255"
 		
