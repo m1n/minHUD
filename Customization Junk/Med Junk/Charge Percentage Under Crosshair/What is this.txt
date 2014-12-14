@@ -1,0 +1,4 @@
+Small percentage counter near your crosshair and a stretched charge bar
+As seen in: http://imgur.com/a/5c0WY#9
+
+To install, place the res file(s) in /resource/ui/

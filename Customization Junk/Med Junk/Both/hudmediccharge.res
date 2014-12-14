@@ -1,9 +1,39 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+	"MedicBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MedicBG"
+		"xpos"			"35"
+		"ypos"			"38"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"40"
+		"pinCorner"		"0"
+		"visible"		"0" //1
+		"enabled"		"0" //1
+		"fillcolor"		"0 0 0 125"
+	}	
+	"Background"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"130"
+		"tall"			"65"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/medic_charge_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/medic_charge_red_bg"
+		"teambg_3"		"../hud/medic_charge_blue_bg"				
+	}
 	"CrosshairCharge"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CrosshairCharge"   //charge % under crosshair
+		"fieldName"		"CrosshairCharge"
 		"xpos"			"c-249"
 		"ypos"			"-90"
 		"zpos"			"3"
@@ -11,8 +41,8 @@
 		"tall"			"200"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0" //1
-		"enabled"		"0" //1
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
@@ -20,7 +50,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"HudWhite"
 		"font"			"AeroRegular12"
-	}		
+	}	
+	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -91,11 +122,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c90"
-		"ypos"			"87"
+		"xpos"			"0"
+		"ypos"			"225"
 		"zpos"			"2"
-		"wide"			"110"
-		"tall"	 		"5"				
+		"wide"			"f0"
+		"tall"	 		"6"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -103,8 +134,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "MedicCharge1"		
-		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" "MedicCharge1"
 	}			
 	"ChargeMeter1"
 	{	
@@ -213,34 +243,5 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}
-	"MedicBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"MedicBG"
-		"xpos"			"35"
-		"ypos"			"38"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"40"
-		"pinCorner"		"0"
-		"visible"		"0" //1
-		"enabled"		"0" //1
-		"fillcolor"		"0 0 0 125"
-	}	
-	"Background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"130"
-		"tall"			"65"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
-	}	
+	
 }

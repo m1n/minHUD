@@ -1,0 +1,4 @@
+Stretched charge bar on the bottom of your screen
+Looks like this: http://imgur.com/a/5c0WY#9
+
+To install, place the res file(s) in /resource/ui/

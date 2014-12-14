@@ -915,10 +915,10 @@
 		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c40"	[$WIN32]
-		"ypos"	"c20"	[$WIN32]
-		"wide"	"150"
-		"tall"	"120"
+		"xpos"	"0"	[$WIN32]
+		"ypos"	"c10"	[$WIN32]
+		"wide"	"f0"
+		"tall"	"300"
 	}
 	
 	HudDemomanCharge
@@ -1080,7 +1080,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"270"
 		"zpos"		"2"
 		"wide"	 	"252"
 		"tall"	 	"35"
@@ -1100,7 +1100,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"

@@ -130,10 +130,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"14"
+		"xpos"			"7"
 		"ypos"			"0"
 		"zpos"			"9"
-		"wide"			"62"
+		"wide"			"35"
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"0"	
@@ -148,7 +148,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"70"
+		"xpos"			"60"
 		"ypos"			"24"
 		"zpos"			"12"
 		"wide"			"10"
