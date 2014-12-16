@@ -174,9 +174,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue			fgcolor		"Health_Buffed" Linear 0.0 0.0
-	Animate PlayerStatusHealthValue2		fgcolor		"Health_Buffed" Linear 0.0 0.0	
+	Animate PlayerStatusHealthValue2		fgcolor		"Health_Buffed" Linear 0.0 0.0		
 	
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health_Buffed" Accel 0.0 0.0
+	Animate PlayerHealthFreezePanel			fgcolor		"Health_Buffed" Linear 0.0 0.0
 	
 	Animate PlayerTourneyHealthValue			fgcolor		"Health_Normal" Linear 0.0 0.0
 	Animate PlayerTourneyHealthValue2		fgcolor		"Health_Normal" Linear 0.0 0.0
@@ -205,7 +205,9 @@ event HudHealthBonusPulseStop
 	Animate HealthBarBuffTourna2  Alpha       "0"           Accel 0.0 0.0
 	
 	Animate PlayerStatusHealthValue			fgcolor		"Health_Normal" Linear 0.0 0.0
-	Animate PlayerStatusHealthValue2		fgcolor		"Health_Normal" Linear 0.0 0.0
+	
+	Animate PlayerHealthFreezePanel			fgcolor		"Health_Normal" Linear 0.0 0.0
+	Animate PlayerHealthFreezePanel		fgcolor		"Health_Normal" Linear 0.0 0.0
 	
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Health_Normal" Accel 0.0 0.0
 }
@@ -220,9 +222,9 @@ event HudHealthDyingPulse
 	
 	Animate PlayerStatusHealthValue			fgcolor		"Health_Hurt" Linear 0.0 0.0
 	Animate PlayerStatusHealthValue2			fgcolor		"Health_Hurt" Linear 0.0 0.0
-	
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Health_Hurt" Accel 0.0 0.0
 
+	Animate PlayerHealthFreezePanel			fgcolor		"Health_Hurt" Linear 0.0 0.0
+	
 	Animate HealthBarLow   Alpha       "255"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "255"           Accel 0.0 0.0
 	
@@ -245,7 +247,9 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue				fgcolor		"Health_Normal" Linear 0.0 0.0
-	Animate PlayerStatusHealthValue2			fgcolor		"Health_Normal" Linear 0.0 0.0
+	Animate PlayerStatusHealthValue2			fgcolor		"Health_Normal" Linear 0.0 0.0	
+	
+	Animate PlayerHealthFreezePanel				fgcolor		"Health_Normal" Linear 0.0 0.0
 
 	Animate HealthBarLow   Alpha       "0"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "0"           Accel 0.0 0.0

@@ -355,10 +355,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"65"
+		"xpos"			"20"
 		"ypos"			"165"
 		"zpos"			"3"
-		"wide"			"170"
+		"wide"			"270"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -372,7 +372,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
-		"xpos"			"72"
+		"xpos"			"40"
 		"ypos"			"170"
 		"zpos"			"3"
 		"wide"			"14"
@@ -387,7 +387,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
-		"xpos"			"98"	[$WIN32]
+		"xpos"			"65"	[$WIN32]
 		"ypos"			"167"
 		"zpos"			"3"
 		"wide"			"75"	[$WIN32]
@@ -405,10 +405,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
-		"xpos"			"178"
+		"xpos"			"158"
 		"ypos"			"167"
 		"zpos"			"3"
-		"wide"			"35"
+		"wide"			"45"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -423,7 +423,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
-		"xpos"			"195"
+		"xpos"			"205"
 		"ypos"			"167"
 		"zpos"			"3"
 		"wide"			"30"
@@ -441,7 +441,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player2Avatar"
-		"xpos"			"72"
+		"xpos"			"40"
 		"ypos"			"186"
 		"zpos"			"3"
 		"wide"			"14"
@@ -456,7 +456,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
-		"xpos"			"98"
+		"xpos"			"65"
 		"ypos"			"183"
 		"zpos"			"3"
 		"wide"			"75"
@@ -474,10 +474,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
-		"xpos"			"178"
+		"xpos"			"158"
 		"ypos"			"183"
 		"zpos"			"3"
-		"wide"			"35"
+		"wide"			"45"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -492,7 +492,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
-		"xpos"			"195"
+		"xpos"			"205"
 		"ypos"			"183"
 		"zpos"			"3"
 		"wide"			"30"
@@ -510,7 +510,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
-		"xpos"			"72"
+		"xpos"			"40"
 		"ypos"			"202"
 		"zpos"			"3"
 		"wide"			"14"
@@ -525,7 +525,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
-		"xpos"			"98"
+		"xpos"			"65"
 		"ypos"			"199"
 		"zpos"			"3"
 		"wide"			"75"
@@ -543,10 +543,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
-		"xpos"			"178"
+		"xpos"			"158"
 		"ypos"			"199"
 		"zpos"			"3"
-		"wide"			"35"
+		"wide"			"45"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -561,7 +561,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
-		"xpos"			"195"
+		"xpos"			"205"	
 		"ypos"			"199"
 		"zpos"			"3"
 		"wide"			"30"
@@ -601,7 +601,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
 		"font"			"AeroRegular10"
-		"xpos"			"80"
+		"xpos"			"95"
 		"ypos"			"214"
 		"zpos"			"3"
 		"wide"			"140"
@@ -619,10 +619,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine2"
-		"xpos"			"65"
+		"xpos"			"20"
 		"ypos"			"229"
 		"zpos"			"3"
-		"wide"			"170"
+		"wide"			"270"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -636,7 +636,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"KillStreakPlayer1Avatar"
-		"xpos"			"72"
+		"xpos"			"40"
 		"ypos"			"236"
 		"zpos"			"3"
 		"wide"			"14"
@@ -651,7 +651,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
-		"xpos"			"98"	[$WIN32]
+		"xpos"			"65"	[$WIN32]
 		"ypos"			"233"
 		"zpos"			"3"
 		"wide"			"75"	[$WIN32]
@@ -669,7 +669,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"xpos"			"178"
+		"xpos"			"158"
 		"ypos"			"233"
 		"zpos"			"3"
 		"wide"			"35"
@@ -687,7 +687,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
-		"xpos"			"195"
+		"xpos"			"205"
 		"ypos"			"233"
 		"zpos"			"3"
 		"wide"			"30"

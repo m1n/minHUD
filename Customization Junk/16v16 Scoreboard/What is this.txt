@@ -1,0 +1,4 @@
+Replaces the normal 12v12 scoreboard with a 16v16 one. Also changes the 6s scoreboard to a 9v9 one
+Linkerino: http://imgur.com/a/5c0WY#15
+
+To install, place the res file(s) in /resource/ui/

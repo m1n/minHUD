@@ -180,7 +180,7 @@
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-5"
+		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
@@ -190,8 +190,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
@@ -232,7 +232,25 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
-
+		"MoveableKeyText"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"MoveableKeyText"
+			"font_minmode"	"AeroRegular12"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"6"
+			"wide"			"12"
+			"tall"			"0"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"Pick Up"
+			"textAlignment"		"center"
+			"dulltext"		"0"
+			"brighttext"		"0"
+		}
 		"MoveableKeyLabel"
 		{	
 			"ControlName"		"Label"
