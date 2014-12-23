@@ -268,7 +268,69 @@
 			}
 		}
 	}
-	
+	"Thwomp"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"Thwomp"
+		"xpos"			"480"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"f0"
+		"tall"			"15"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"35"
+			"ypos"			"-1"
+			"wide"			"24"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"Quake14"
+			"textAlignment"	"west"
+			"labelText"		""
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/Thwomp.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"depressedFgColor_override" "TanLight"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"image"			"replay/thumbnails/thwomp"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}		
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
