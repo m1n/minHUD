@@ -73,7 +73,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"AeroRegular12"
-			"xpos"			"10"
+			"xpos"			"28"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
@@ -83,7 +83,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"south-west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

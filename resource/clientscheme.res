@@ -47,6 +47,18 @@ Scheme
 		"HudOrange"				"255 139 54 255"
 		"HudGreen"				"109 230 84 255"
 		
+		//Menu Colors
+
+		"StatBar1"						"100 149 237 128"
+		"StatBar2"						"100 149 237 128"
+		"StatBar3"						"100 129 217 128"
+		"StatBar4"						"100 109 197 128"
+		"StatBar5"						"100 89 177 128"
+		"StatBar6"						"100 69 157 128"
+		"StatBar7"						"100 49 137 128"
+		"StatBar8"						"100 29 117 128"
+		"StatBar9"						"100 9 97 128"
+		
 		"MainMenuNormal"		"180 180 180 255"
 		"MainMenuHover"			"255 255 255 255"
 		
@@ -2714,6 +2726,16 @@ Scheme
 			"antialias"		"1"
 			}
 		}
+		"CircleBGSmallest"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 		
 		///////////////// Custom Fonterinos //////////////////
 		AeroBoldOutline24
@@ -3109,6 +3131,26 @@ Scheme
 				"antialias" "1"
 			}
 		}	
+		Quake8
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Quake10
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		Quake12
 		{
 			"1"
@@ -5246,6 +5288,11 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"13" 
+		{
+			"font" "resource/fonts/Paula.ttf"
+			"name" "Paula"
 		}		
 	}
 }

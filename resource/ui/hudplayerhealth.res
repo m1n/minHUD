@@ -49,11 +49,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"45"		[$WIN32]
-		"ypos"			"25"	[$WIN32]
+		"xpos"			"50"		[$WIN32]
+		"ypos"			"31"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"70"	[$WIN32]
-		"tall"			"70"	[$WIN32]
+		"wide"			"60"	[$WIN32]
+		"tall"			"60"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -347,7 +347,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"

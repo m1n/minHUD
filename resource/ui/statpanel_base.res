@@ -7,14 +7,20 @@
 		"xpos"			"-12"
 		"ypos"			"5"
 		"zpos"			"0"
-		"wide"			"286"
-		"wide_lodef"	"420"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"		
 	}
 	"StatPanelClassImage"
 	{
@@ -117,10 +123,10 @@
 		"enabled"		"1"
 		"pinCorner"		"0"
 		"xpos"			"72"
-		"ypos"			"77"
+		"ypos"			"79"
 		"zpos"			"3"
 		"wide"			"175"
 		"tall"			"20"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 }

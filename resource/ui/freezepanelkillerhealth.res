@@ -83,7 +83,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"font" 			"Quake32"
-		"fgcolor"		"0 0 0 0"
+		"fgcolor"		"HudShadow"
 		"textAlignment"	"east"	
 	}			
 	
