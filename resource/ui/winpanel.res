@@ -669,7 +669,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"xpos"			"158"
+		"xpos"			"190"
 		"ypos"			"233"
 		"zpos"			"3"
 		"wide"			"45"
@@ -687,7 +687,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
-		"xpos"			"205"
+		"xpos"			"250"
 		"ypos"			"233"
 		"zpos"			"3"
 		"wide"			"30"

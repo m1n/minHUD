@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"Quake32"
+		"font" 			"FreezepanelHP"
 		"textAlignment"	"east"		
 	}
 	"PlayerStatusHealthValueShadow"
@@ -82,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"Quake32"
+		"font" 			"FreezepanelHP"
 		"fgcolor"		"HudShadow"
 		"textAlignment"	"east"	
 	}			

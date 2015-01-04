@@ -96,7 +96,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake16"
+		"font"   "TargetIDHP"
 		"outline"	"1"		
 	}
 	"PlayerStatusHealthValue2Shadow" 
@@ -112,7 +112,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake16"
+		"font"   "TargetIDHP"
 		"fgcolor_override"	"HudShadow"
 		"outline"	"1"		
 	}	

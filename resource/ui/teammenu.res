@@ -50,19 +50,19 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"mapname"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"c200"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Quake28"
+		"font"			"TabsStore"
 		"fgcolor"		"TanLight"
 	}
 	
@@ -86,7 +86,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor_override" "38 38 38 255"
 		"defaultFgColor_override" "38 38 38 255"
 		"armedFgColor_override" "255 255 255 255"
@@ -115,7 +115,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor_override" "38 38 38 255"
 		"defaultFgColor_override" "38 38 38 255"
 		"armedFgColor_override" "255 255 255 255"
@@ -144,7 +144,7 @@
 		"brighttext"	"0"
 		"paintborder"	"1"
 		"command"		"jointeam auto"
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor_override" "38 38 38 255"
 		"defaultFgColor_override" "38 38 38 255"
 		"armedFgColor_override" "255 255 255 255"
@@ -173,7 +173,7 @@
 		"brighttext"	"0"
 		"paintborder"	"1"
 		"command"		"jointeam spectate"
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor_override" "38 38 38 255"
 		"defaultFgColor_override" "38 38 38 255"
 		"armedFgColor_override" "255 255 255 255"
@@ -202,7 +202,7 @@
 		"brighttext"	"0"
 		"paintbackground""0"
 		"command"		"cancelmenu"
-		"font"			"Quake16"
+		"font"			"TeamName"
 	}
 	
 	"TeamMenuSelect"
@@ -326,7 +326,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Quake48"
+		"font"			"TeamCount"
 		"fgcolor"		"255 255 255 255"
 	}
 	"BlueCountPlayers"
@@ -346,7 +346,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor"		"255 255 255 175"
 	}		
 	
@@ -367,7 +367,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Quake48"
+		"font"			"TeamCount"
 		"fgcolor"		"255 255 255 255"
 	}	
 	"RedCountPlayers"
@@ -387,7 +387,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Quake16"
+		"font"			"TeamName"
 		"fgcolor"		"255 255 255 175"
 	}	
 	

@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Quake32"
+		"font"			"MOTD"
 		"fgcolor"		"TanLight"
 	}
 	
@@ -144,7 +144,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue2"
-		"xpos"			"c-70"
+		"xpos"			"c-75"
 		"ypos"			"c100"
 		"zpos"			"6"
 		"wide"			"150"
@@ -153,13 +153,13 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"CONTINUE"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Quake24"
+		"font"			"MOTD"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanLight"

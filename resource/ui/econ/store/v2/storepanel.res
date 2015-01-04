@@ -103,7 +103,7 @@
 		{
 			"textinsetx"		"6"
 			"textAlignment"		"center"
-			"font"				"Quake28"
+			"font"				"TabsStore"
 			"selectedcolor"		"MainMenuHover"
 			"unselectedcolor"	"MainMenuNormal"	
 			"defaultBgColor_override"	"46 43 42 255"

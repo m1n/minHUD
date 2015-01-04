@@ -50,7 +50,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Quake24"
+		"font"			"MOTD"
 		"fgcolor"		"TanLight"
 	}	
 
@@ -102,7 +102,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c-175"
+		"xpos"			"c-180"
 		"ypos"			"c100"
 		"zpos"			"6"
 		"wide"			"360"
@@ -112,14 +112,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"CONTINUE"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Quake24"
+		"font"			"MOTD"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanLight"

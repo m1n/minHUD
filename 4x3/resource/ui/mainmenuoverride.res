@@ -234,7 +234,7 @@
 			"use_proportional_insets" "1"
 			"font"			"Quake14"
 			"textAlignment"	"west"
-			"labelText"		"minHUD v1.3.0"
+			"labelText"		"minHUD v1.3.2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -275,7 +275,7 @@
 		"xpos"			"480"
 		"ypos"			"0"
 		"zpos"			"12"
-		"wide"			"f0"
+		"wide"			"54"
 		"tall"			"15"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -292,11 +292,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"Quake14"
-			"textAlignment"	"west"
-			"labelText"		""
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -319,7 +314,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
+				"xpos"			"3"
 				"ypos"			"0"
 				"zpos"			"1"
 				"wide"			"16"
@@ -330,7 +325,7 @@
 				"scaleImage"	"1"
 			}
 		}
-	}		
+	}	
 	"Background"
 	{
 		"ControlName"	"ImagePanel"

@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"Quake48"
+		"font"			"AmmoLabel"
 		"fgcolor"		"AmmoClip_Normal"
 		"xpos"			"-44"
 		"ypos"			"35"
@@ -62,36 +62,12 @@
 		"visible"		"0" //1
 		"enabled"		"0" //1
 		"fillcolor"		"0 0 0 125"
-	}
-	"TeamIndicator"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
-		"xpos"			"35"
-		"ypos"			"77"
-		"zpos"			"4"
-		"wide"			"120"
-		"tall"	 		"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "0" //1
-		"enabled" "0" //1
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
 	}	
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"Quake48"
+		"font"			"AmmoLabel"
 		"fgcolor"		"HudShadow"
 		"xpos"			"-43"
 		"ypos"			"36"
@@ -108,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Quake28"
+		"font"			"AmmoReserveLabel"
 		"fgcolor"		"AmmoReserve_Normal"
 		"xpos"			"110"
 		"ypos"			"40"
@@ -124,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Quake28"
+		"font"			"AmmoReserveLabel"
 		"fgcolor"		"HudShadow"
 		"xpos"			"111"
 		"ypos"			"41"
@@ -140,7 +116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"Quake48"
+		"font"			"AmmoLabel"
 		"fgcolor"		"AmmoNoClip_Normal"
 		"xpos"			"70"
 		"ypos"			"35"
@@ -157,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Quake48"
+		"font"			"AmmoLabel"
 		"fgcolor"		"HudShadow"
 		"xpos"			"71"
 		"ypos"			"36"

@@ -282,7 +282,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Quake12"
+				"font"			"TourneyHealth"
 				"xpos"			"126"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -299,7 +299,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"Quake12"
+				"font"			"TourneyHealth"
 				"xpos"			"127"
 				"ypos"			"3"
 				"zpos"			"6"

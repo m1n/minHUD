@@ -81,7 +81,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake12"
+		"font"   "TourneyHealth"
 		"outline"	"1"		
 	}
 	"PlayerTourneyHealthValue2Shadow" 
@@ -97,7 +97,7 @@
 		"enabled"  "1" 
 		"labeltext"  "%Health%" 
 		"textAlignment" "center" 
-		"font"   "Quake12"
+		"font"   "TourneyHealth"
 		"fgcolor_override"	"HudShadow"
 		"outline"	"1"		
 	}

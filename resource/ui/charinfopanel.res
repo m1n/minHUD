@@ -102,7 +102,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"5"
-			"font"				"Quake32"
+			"font"				"Tabs"
 			"selectedcolor"		"MainMenuHover"
 			"unselectedcolor"	"MainMenuNormal"	
 			"defaultBgColor_override"	"46 43 42 255"

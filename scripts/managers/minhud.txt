@@ -1,0 +1,12 @@
+Title=minHUD
+Description=
+Version=1.3.5
+Link=
+Date=29/12/2014
+Category=HUD
+Author=Min
+Role=minHUD
+Profile=http://steamcommunity.com/id/mrmin/
+Author=Jarkin
+Role=PrismHUD
+Profile=http://steamcommunity.com/profiles/76561198022106397

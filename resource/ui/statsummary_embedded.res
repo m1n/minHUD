@@ -275,7 +275,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"Quake20"
+			"font"			"StatAverage"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"textAlignment_hidef"		"center"
@@ -1661,7 +1661,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"Quake16"
+			"font"			"StatRecord"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"

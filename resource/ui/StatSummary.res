@@ -244,7 +244,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Quake32"
+		"font"			"Tabs"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"r302"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabelShadow"
-		"font"			"Quake32"
+		"font"			"Tabs"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"r301"
