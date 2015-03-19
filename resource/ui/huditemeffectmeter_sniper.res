@@ -1,3 +1,5 @@
+#base base_customs/ammo_position.res
+
 "Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
@@ -73,12 +75,10 @@
 		"brighttext"			"0"
 	}					
 	
-	"ItemEffectMeterCount"
+	"Heads"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"fieldName"				"Heads"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -91,14 +91,12 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"HudWhite"
-		"font"					"Quake12"
+		"font"					"KillstreakFont"
 	}
-		"HeadShadow"
+	"HeadShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"HeadShadow"
-		"xpos"					"26"
-		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -111,6 +109,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"HudShadow"
-		"font"					"Quake12"
+		"font"					"KillstreakFont"
 	}
 }

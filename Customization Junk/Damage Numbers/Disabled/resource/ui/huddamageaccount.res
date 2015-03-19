@@ -1,3 +1,5 @@
+#base base_customs/health_position.res
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -9,8 +11,8 @@
 		"PositiveColor"			"HealNumber"
 		"NegativeColor"			"DamageNumber"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"AeroBoldOutline24"
-		"delta_item_font_big"	"AeroBoldOutline24"
+		"delta_item_font"		"DamageNumberOutline"
+		"delta_item_font_big"	"DamageNumberOutline"
 		//"delta_item_font"		"AeroBoldOutline24"
 		//"delta_item_font_big"	"AeroBoldOutline24"
 	}

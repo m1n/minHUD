@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"WinPanelBackground2"
-		"xpos"			"320"
+		"xpos"			"379"
 		"ypos"			"105"
 		"zpos"			"0"
 		"wide"			"213"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c120"
+		"xpos"				"c200"
 		"ypos"				"170"
 		"zpos"				"6"
 		"wide"				"100"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-75"
+		"xpos"				"c-30"
 		"ypos"				"100"
 		"zpos"				"6"
 		"wide"				"50"
@@ -192,7 +192,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-25"
+		"xpos"				"c35"
 		"ypos"				"100"
 		"zpos"				"6"
 		"wide"				"50"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c25"
+		"xpos"				"c100"
 		"ypos"				"100"
 		"zpos"				"6"
 		"wide"				"50"
@@ -331,7 +331,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-75"
+		"xpos"				"c-30"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"50"
@@ -389,7 +389,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-25"
+		"xpos"				"c38"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"50"
@@ -447,7 +447,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c25"
+		"xpos"				"c105"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"50"
@@ -527,7 +527,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c-75"
+		"xpos"				"c-30"
 		"ypos"				"260"
 		"zpos"				"6"
 		"wide"				"50"
@@ -585,7 +585,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c-25"
+		"xpos"				"c40"
 		"ypos"				"260"
 		"zpos"				"6"
 		"wide"				"50"
@@ -643,7 +643,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c25"
+		"xpos"				"c105"
 		"ypos"				"260"
 		"zpos"				"6"
 		"wide"				"50"
@@ -702,7 +702,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"320"
+		"xpos"			"379"
 		"ypos"			"370"
 		"zpos"			"6"
 		"wide"			"213"
@@ -728,7 +728,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"320"
+		"xpos"			"379"
 		"ypos"			"100"
 		"zpos"			"7"
 		"wide"			"213"
@@ -757,8 +757,8 @@
 		"xpos"			"r470"
 		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"110"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -777,8 +777,8 @@
 		"xpos"			"30"
 		"ypos"			"r40"
 		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -910,7 +910,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
-		"xpos"			"550"
+		"xpos"			"50"
 		"ypos"			"380"
 		"zpos"			"9"
 		"wide"			"45"
@@ -925,7 +925,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"545"
+		"xpos"			"45"
 		"ypos"			"395"
 		"zpos"			"2"
 		"wide"			"55"
@@ -950,7 +950,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"600"
+		"xpos"			"100"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -965,7 +965,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"625"
+		"xpos"			"125"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -980,7 +980,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"650"
+		"xpos"			"150"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -995,7 +995,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"675"
+		"xpos"			"175"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1010,7 +1010,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"700"
+		"xpos"			"200"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1025,7 +1025,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"725"
+		"xpos"			"225"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1040,7 +1040,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"750"
+		"xpos"			"250"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1055,7 +1055,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"775"
+		"xpos"			"275"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1070,7 +1070,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"800"
+		"xpos"			"300"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1085,7 +1085,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"825"
+		"xpos"			"325"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1100,7 +1100,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"850"
+		"xpos"			"350"
 		"ypos"			"395"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1115,7 +1115,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
-		"xpos"			"605"
+		"xpos"			"105"
 		"ypos"			"455"
 		"zpos"			"10"
 		"wide"			"150"
@@ -1135,7 +1135,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c-75"
+		"xpos"			"c-30"
 		"ypos"			"125"
 		"zpos"			"7"
 		"wide"			"50"
@@ -1155,7 +1155,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c-23"
+		"xpos"			"c35"
 		"ypos"			"125"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1175,7 +1175,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c28"
+		"xpos"			"c100"
 		"ypos"			"125"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1195,7 +1195,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c-75"
+		"xpos"			"c-30"
 		"ypos"			"197"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1215,7 +1215,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c-23"
+		"xpos"			"c38"
 		"ypos"			"197"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1235,7 +1235,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c28"
+		"xpos"			"c105"
 		"ypos"			"197"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1255,7 +1255,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c-75"
+		"xpos"			"c-30"
 		"ypos"			"278"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1275,7 +1275,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c-23"
+		"xpos"			"c40"
 		"ypos"			"278"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1295,7 +1295,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c28"
+		"xpos"			"c105"
 		"ypos"			"278"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1561,7 +1561,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"0"
+		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"480"

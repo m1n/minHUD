@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"421"	[$WIN32]
+		"xpos"			"361"	[$WIN32]
 		"ypos"			"323"	[$WIN32]
 		"wide"			"1000"
 		"tall"			"50"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"HeadShadow"
-		"xpos"					"25"
+		"xpos"					"26"
 		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"

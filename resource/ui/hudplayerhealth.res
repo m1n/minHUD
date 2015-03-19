@@ -1,41 +1,63 @@
+#base base_customs/health_position.res
+
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
-	"HudPlayerHealth"
+	"HudPlayerHealth" //Container for everything
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-175"		[$WIN32]
+		"xpos"			"-10"		[$WIN32]
 		"ypos"			"c20"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
-	"PlayerStatusHealthImage"
+	"PlayerStatusHealthValue" //Health Numbers
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"fgcolor"		"Health_Normal"
+	}
+	"PlayerStatusHealthValueBG" //Shadow
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"fgcolor"		"HudShadow"
+	}	
+	"PlayerStatusHealthImage" //Health Cross Image
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"25"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusHealthImageBG"
+	"PlayerStatusHealthImageBG" //Gray Border
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"99999"
-		"xpos_minmode"	"58"
 		"ypos"			"99999"
 		"zpos"			"3"
 		"wide"			"55"
@@ -45,65 +67,25 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage" //Buff Image
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"50"		[$WIN32]
-		"ypos"			"31"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"60"	[$WIN32]
-		"tall"			"60"	[$WIN32]
+		"zpos"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"30"
-		"ypos"			"35"	[$WIN32]
-		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"HealthLabel"
-		"fgcolor"		"Health_Normal"
-	}
-	"PlayerStatusHealthValueBG" //Shadow
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"31"
-		"ypos"			"36"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"HealthLabel"
-		"fgcolor"		"HudShadow"
-	}
-	"TeamIndicator"
+	"HPBorderPanel1" //Vertical Cross Piece
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
-		"xpos"			"50"
-		"ypos"			"77"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"	 		"5"
+		"fieldName"		"HPBackgroundPanel1"
+		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible" "0" //1
-		"enabled" "0" //1
+		"visible" "1" 
+		"enabled" "1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -115,15 +97,37 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
 	}
+	"HPBorderPanel2" //Horizontal Piece
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HPBackgroundPanel2"
+		"zpos"			"2"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible" "1"
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}	
+	
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"115"
+		"xpos"			"100"
 		"ypos"			"45"
 		"zpos"			"7"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"21"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -356,7 +360,5 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
-	}
-	
-
+	}			
 }

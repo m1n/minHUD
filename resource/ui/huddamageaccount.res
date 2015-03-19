@@ -1,3 +1,5 @@
+#base base_customs/damage_numbers.res
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -10,8 +12,8 @@
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
-		"delta_item_font" 		"AeroBoldOutline24" 
-		"delta_item_font_big" 	"AeroBoldOutline24"
+		"delta_item_font" 		"DamageNumberOutline" 
+		"delta_item_font_big" 	"DamageNumberOutline"
 		"outline"				"1"
 
 	}	
@@ -19,8 +21,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-148"
-		"ypos"			"282"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
@@ -29,15 +29,13 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"DamageNumber"
-		"font"			"AeroBold28"
+		"font"			"DamageNumber"
 	}
 	
 	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-147"
-		"ypos"			"283"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26"
@@ -45,7 +43,35 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
-		"font"			"AeroBold28"
+		"fgcolor"		"HudShadow"
+		"font"			"DamageNumber"
 	}
+	"DoinGreatLabel1"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DoinGreatLabel1"
+		"zpos"			"2"
+		"wide"			"500"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"U ARE DOING GREAT"
+		"textAlignment"	"center"
+		"fgcolor"		"HealNumber"
+		"font"			"HealthLabel"
+	}
+	"DoinGreatLabel2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DoinGreatLabel2"
+		"zpos"			"2"
+		"wide"			"500"
+		"tall"			"51"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"U ARE DOING GREAT"
+		"textAlignment"	"center"
+		"fgcolor"		"HudShadow"
+		"font"			"HealthLabel"
+	}	
 }

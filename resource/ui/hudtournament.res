@@ -516,7 +516,7 @@
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"18"
 			"zpos"			"3"
 		}
 	}
@@ -545,7 +545,7 @@
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"18"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}

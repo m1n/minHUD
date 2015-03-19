@@ -3261,7 +3261,7 @@ Scheme
 	
 	Borders
 	{
-			  	ButtonHover
+		ButtonHover
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3629,6 +3629,96 @@ Scheme
 			"src_corner_height"             "1"                             // pixels inside the image
 			"src_corner_width"              "24"
 			"draw_corner_width"             "0"                             // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }
+		Arrow_Both
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_both"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Left
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_left"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Left_Large
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_left_large"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Left_Larger
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_left_larger"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Right
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_right"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Right_Large
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_right_large"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Right_Larger
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_right_larger"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }
+		Arrow_Quit
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_quit"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"    "0"    
+        }		
+		Arrow_Quit_Large
+        {
+			"bordertype"                    "scalable_image"
+			"backgroundtype"                "2"
+			"image"                         "replay/thumbnails/arrows/arrow_quit_large"
+			"src_corner_height"             "1"    // pixels inside the image
+			"src_corner_width"              "24"
+			"draw_corner_width"             "0"    // screen size of the corners ( and sides ), proportional
 			"draw_corner_height"    "0"    
         }		
 		

@@ -56,11 +56,11 @@ To ANIMATE YOUR CROSSHAIR
 ///////////////////////////////////
 
 1) Open "/minHUD-master/"
-2) Go to "/minHUD-master/resource"
+2) Go to "/minHUD-master/resource/schemes/"
 	
 	Inside should be two folders and 4 .res files
 	
-3) Open "clientscheme.res"
+3) Open "clientscheme_minhud.res"
 	
 	Quick note about editing your clientscheme: Unfortunately, any change you make here WILL NOT TAKE EFFECT UNTIL YOU RESTART TF2.
 	

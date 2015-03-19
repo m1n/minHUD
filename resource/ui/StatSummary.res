@@ -65,7 +65,7 @@
 			"tall"		"480"
 			"visible"	"1"
 			"enabled"	"1"
-			"image"		"replay/thumbnails/loading_custom"
+			"image"		"replay/thumbnails/loading_tape"
 			"scaleImage"	"1"
 		}
 
@@ -320,7 +320,7 @@
 		"tall"		"480"
 		"visible"	"1"
 		"enabled"	"1"
-		"image"		"replay/thumbnails/loading_custom"
+		"image"		"replay/thumbnails/loading_tape"
 		"scaleImage"	"1"
 	}					
 }

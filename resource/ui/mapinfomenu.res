@@ -15,7 +15,7 @@
 		"enabled"		"1"
 	}
 	
-		"MainBG"
+	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -216,7 +216,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"AeroRegular20"
+		"font"			"MOTD2"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanLight"

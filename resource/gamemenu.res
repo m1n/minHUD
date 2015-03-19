@@ -37,7 +37,7 @@
 	} 
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "Change Server" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"

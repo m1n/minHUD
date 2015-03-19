@@ -10,9 +10,10 @@
 
 #base "schemes/clientscheme_closecaption_font.res"		//font used for closecaptions
 
-#base "schemes/clientscheme_minhud_font_locations.res"	//notohud's font declarations with updated file locations
-#base "schemes/clientscheme_minhud.res"					//unchanged clientscheme for notohud
-#base "schemes/clientscheme_minhud_new.res"				//unchanged clientscheme for the reworked notohud
+#base "schemes/clientscheme_minhud_font_locations.res"	//minHUD's font declarations with updated file locations
+#base "schemes/clientscheme_minhud.res"					//unchanged clientscheme for minHUD
+#base "schemes/clientscheme_minhud_new.res"			
+#base "schemes/clientscheme_reflex.res"					//fonts for reflexHUD
 
 //if you want to replace anything in other places, here would be a good place for it
 Scheme

@@ -1,5 +1,95 @@
+#base base_customs/ammo_position.res
+
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"AmmoLabel"
+		"fgcolor"		"AmmoClip_Normal"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+	}	
+	"AmmoInClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClipShadow"
+		"font"			"AmmoLabel"
+		"fgcolor"		"HudShadow"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+	}						
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"AmmoReserveLabel"
+		"fgcolor"		"AmmoReserve_Normal"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%AmmoInReserve%"
+	}		
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"font"			"AmmoReserveLabel"
+		"fgcolor"		"HudShadow"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%AmmoInReserve%"
+	}									
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"AmmoLabel"
+		"fgcolor"		"AmmoNoClip_Normal"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%Ammo%"
+		
+	}	
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"font"			"AmmoLabel"
+		"fgcolor"		"HudShadow"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%Ammo%"
+		
+	}	
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -31,120 +121,5 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
-	}
-	"AmmoInClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClip"
-		"font"			"AmmoLabel"
-		"fgcolor"		"AmmoClip_Normal"
-		"xpos"			"-44"
-		"ypos"			"35"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%Ammo%"
-		
-	}
-	"AmmoBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"			"35"
-		"ypos"			"38"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"40"
-		"pinCorner"		"0"
-		"visible"		"0" //1
-		"enabled"		"0" //1
-		"fillcolor"		"0 0 0 125"
 	}	
-	"AmmoInClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClipShadow"
-		"font"			"AmmoLabel"
-		"fgcolor"		"HudShadow"
-		"xpos"			"-43"
-		"ypos"			"36"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%Ammo%"
-		
-	}						
-	"AmmoInReserve"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserve"
-		"font"			"AmmoReserveLabel"
-		"fgcolor"		"AmmoReserve_Normal"
-		"xpos"			"110"
-		"ypos"			"40"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"		
-		"labelText"		"%AmmoInReserve%"
-	}		
-	"AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"font"			"AmmoReserveLabel"
-		"fgcolor"		"HudShadow"
-		"xpos"			"111"
-		"ypos"			"41"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"		
-		"labelText"		"%AmmoInReserve%"
-	}									
-	"AmmoNoClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClip"
-		"font"			"AmmoLabel"
-		"fgcolor"		"AmmoNoClip_Normal"
-		"xpos"			"70"
-		"ypos"			"35"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"		
-		"labelText"		"%Ammo%"
-		
-	}	
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"AmmoLabel"
-		"fgcolor"		"HudShadow"
-		"xpos"			"71"
-		"ypos"			"36"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"		
-		"labelText"		"%Ammo%"
-		
-	}
-
 }

@@ -154,9 +154,8 @@
 		"font_minmode"			"AeroRegular20"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"220"
+		"xpos"			"200"
 		"xpos_minmode"	"220"
-		"xpos_hidef"		"100"
 		"ypos"			"108"
 		"ypos_minmode"			"370"		
 		"wide"			"100"
@@ -179,7 +178,6 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"525" [!$OSX]
-		"xpos"			"445" [$OSX]
 		"xpos_minmode"	"99999"
 		"ypos"			"106"	[$WIN32]
 		"ypos_minmode"			"99999"		
@@ -228,7 +226,7 @@
 		"font_minmode"			"AeroRegular20"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"460"		
+		"xpos"			"480"		
 		"xpos_minmode"			"500"
 		"ypos"			"108"
 		"ypos_minmode"			"370"		
@@ -248,7 +246,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Quake16"
+		"font"			"Scoreboard1"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"5"
@@ -263,14 +261,14 @@
 		
 		if_mvm
 		{
-			"ypos"			"60"
+			"wide"		"0"
 		}
 	}
 	"ServerTimeLeft"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Quake12"
+		"font"			"Scoreboard2"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"r305"
@@ -285,7 +283,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"60"
+			"ypos"			"0"
 		}
 	}							
 	"BluePlayerList"
@@ -298,7 +296,7 @@
 		"ypos_minmode"	"266"
 		"zpos"			"20"
 		"wide"			"290"
-		"tall"			"202"
+		"tall"			"204"
 		"tall_minmode"	"110"		
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -323,7 +321,7 @@
 		"ypos_minmode"	"266"
 		"zpos"			"20"
 		"wide"			"290"
-		"tall"			"202"		
+		"tall"			"204"		
 		"tall_minmode"	"110"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -458,20 +456,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Quake16"
+		"font"			"Scoreboard1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
 		"textAlignment_minmode"	"west"
 		"xpos"			"5"		
 		"ypos"			"17"		
 		"zpos"			"3"
-		"wide"			"165"
+		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+		
+		if_mvm
+		{
+			"ypos"		"17"
+		}
 	}						
 	"HorizontalLine"
 	{
@@ -795,7 +798,7 @@
 			"font"			"AeroRegular36"
 			"labelText"		":"
 			"textAlignment"		"center"
-			"xpos"			"-15"
+			"xpos"			"-12"
 			"ypos"			"-12"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"0"
@@ -849,7 +852,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"AeroRegular42"
+			"font"			"AeroRegular36"
 			"labelText"		"%kills%"
 			"textAlignment"		"center"
 			"xpos"			"0"			
@@ -868,7 +871,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"AeroRegular42"
+			"font"			"AeroRegular36"
 			"labelText"		"%deaths%"
 			"textAlignment"		"center"
 			"xpos"			"0"			
@@ -1584,7 +1587,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		
-		"verbose"			"1"
+		"verbose"			"1"	
 		
 		if_mvm
 		{

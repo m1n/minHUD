@@ -174,10 +174,10 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue			fgcolor		"Health_Buffed" Linear 0.0 0.0
-	Animate PlayerStatusHealthValue2		fgcolor		"Health_Buffed" Linear 0.0 0.0		
+	Animate PlayerStatusHealthValue2		fgcolor		"Health_Buffed" Linear 0.0 0.0			
 	
-	Animate PlayerHealthFreezePanel			fgcolor		"Health_Buffed" Linear 0.0 0.0
-	
+	Animate PlayerHealthFreezePanel			fgcolor		"Health_Buffed" Linear 0.0 0.0	
+		
 	Animate PlayerTourneyHealthValue			fgcolor		"Health_Normal" Linear 0.0 0.0
 	Animate PlayerTourneyHealthValue2		fgcolor		"Health_Normal" Linear 0.0 0.0
 	
@@ -185,7 +185,10 @@ event HudHealthBonusPulse
 	Animate HealthBarBuffTourna2  Alpha       "255"           Accel 0.0 0.0
 	
 	Animate	HealthBarBuffTourna 	Alpha		"0"				Linear 0.0 0.4
-	Animate	HealthBarBuffTourna 	Alpha		"255"			Linear 0.2 0.2
+	Animate	HealthBarBuffTourna 	Alpha		"255"			Linear 0.2 0.2		
+	
+	Animate	ReflexBuff 	Alpha		"0"				Linear 0.0 0.4
+	Animate	ReflexBuff 	Alpha		"255"			Linear 0.2 0.2	
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -202,7 +205,9 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate HealthBarBuffTourna   Alpha       "0"           Accel 0.0 0.0
-	Animate HealthBarBuffTourna2  Alpha       "0"           Accel 0.0 0.0
+	Animate HealthBarBuffTourna2  Alpha       "0"           Accel 0.0 0.0	
+	
+	Animate ReflexBuff   Alpha       "0"           Accel 0.0 0.0
 	
 	Animate PlayerStatusHealthValue			fgcolor		"Health_Normal" Linear 0.0 0.0
 	
@@ -229,7 +234,10 @@ event HudHealthDyingPulse
 	Animate HealthBarLow2  Alpha       "255"           Accel 0.0 0.0
 	
 	Animate	HealthBarLow 	Alpha		"0"				Linear 0.0 0.4
-	Animate	HealthBarLow 	Alpha		"255"			Linear 0.2 0.2
+	Animate	HealthBarLow 	Alpha		"255"			Linear 0.2 0.2	
+	
+	Animate	ReflexHurt 	Alpha		"0"				Linear 0.0 0.2
+	Animate	ReflexHurt 	Alpha		"255"			Linear 0.0 0.4
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 	
@@ -253,6 +261,8 @@ event HudHealthDyingPulseStop
 
 	Animate HealthBarLow   Alpha       "0"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "0"           Accel 0.0 0.0
+	
+	Animate ReflexHurt   Alpha       "0"           Accel 0.0 0.0
 	
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Health_Normal" Accel 0.0 0.0
 

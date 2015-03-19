@@ -1,3 +1,5 @@
+#base base_customs/health_position.res
+
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -9,7 +11,7 @@
 		"ypos"			"300"	[$WIN32]
 		"zpos"			"-2"		
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -71,13 +73,11 @@
 		"brighttext"			"0"
 	}					
 	
-	"ItemEffectMeterCount"
+	"KillstreakMeter"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-20"
-		"ypos"					"36"
-		"zpos"					"-2"
+		"fieldName"				"KillstreakMeter"
+		"zpos"					"-2"		
 		"wide"					"100"
 		"tall"					"20"	
 		"pinCorner"				"2"
@@ -85,18 +85,16 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"235 235 225 255"
-		"font"					"Quake12"
+		"font"					"KillstreakFont"
 	}
-	"ItemEffectMeterCountShadow"
+	"KillstreakMeterShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-20"
-		"ypos"					"37"
+		"fieldName"				"KillstreakMeterShadow"
 		"zpos"					"-3"
 		"wide"					"100"
 		"tall"					"20"	
@@ -105,10 +103,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor" 				"0 0 0 220"
-		"font"					"Quake12"
+		"font"					"KillstreakFont"
 	}	
 }

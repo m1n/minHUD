@@ -30,12 +30,10 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
 	
-	"ItemEffectIcon"
+	"BottleIcon"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"-5"
-		"ypos"			"6"
+		"fieldName"		"BottleIcon"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -84,15 +82,14 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
-	"ItemEffectMeterCount"
+	}						
+	"BottleCount"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-12"
-		"ypos"					"25"
-		"zpos"					"2"
+		"fieldName"				"BottleCount"
+		"xpos"					"0"		
+		"ypos"					"0"		
+		"zpos"					"2"		
 		"wide"					"40"
 		"tall"					"20"	
 		"pinCorner"				"2"
@@ -104,6 +101,26 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"HudWhite"
+		"font"					"Quake16"
+	}	
+	"BottleCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"BottleCountShadow"
+		"xpos"					"0"		
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor"				"HudShadow"
 		"font"					"Quake16"
 	}
 }

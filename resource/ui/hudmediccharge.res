@@ -1,32 +1,30 @@
+#base base_customs/uber_position.res
+
 "Resource/UI/HudMedicCharge.res"
 {	
 	"CrosshairCharge"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairCharge"   //charge % under crosshair
-		"xpos"			"c-249"
-		"ypos"			"-90"
 		"zpos"			"3"
 		"wide"			"500"
 		"tall"			"200"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0" //1
-		"enabled"		"0" //1
+		"visible"		"1" //1
+		"enabled"		"1" //1
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudWhite"
-		"font"			"AeroRegular12"
+		"font"			"UberCrosshairLabel"
 	}		
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c90"
-		"ypos"			"45"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"50"
@@ -40,14 +38,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudWhite"
-		"font"			"Quake48"
+		"font"			"HealthLabel"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c91"
-		"ypos"			"46"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"50"
@@ -61,7 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudShadow"
-		"font"			"Quake48"
+		"font"			"HealthLabel"
 	}	
 
 	"IndividualChargesLabel"
@@ -84,17 +80,13 @@
 		"brighttext"	"0"
 		"fgcolor"		"HudWhite"		
 		"font"			"Quake48"
-	}
-	
+	}	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c90"
-		"ypos"			"87"
 		"zpos"			"2"
-		"wide"			"110"
 		"tall"	 		"5"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -111,8 +103,6 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c125"
-		"ypos"			"57"
 		"zpos"			"4"
 		"wide"			"19"
 		"tall"			"13"				
@@ -131,8 +121,6 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c145"
-		"ypos"			"57"
 		"zpos"			"4"
 		"wide"			"19"
 		"tall"			"13"				
@@ -151,8 +139,6 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c125"
-		"ypos"			"72"
 		"zpos"			"4"
 		"wide"			"19"
 		"tall"			"13"				
@@ -171,8 +157,6 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c145"
-		"ypos"			"72"
 		"zpos"			"4"
 		"wide"			"19"
 		"tall"			"13"				

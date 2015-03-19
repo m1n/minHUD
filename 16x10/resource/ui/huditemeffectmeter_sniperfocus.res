@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r480"	[$WIN32]
+		"xpos"			"327"	[$WIN32]
 		"ypos"			"r160"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
@@ -60,7 +60,7 @@
 		"xpos"					"7"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"107"
+		"wide"					"105"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

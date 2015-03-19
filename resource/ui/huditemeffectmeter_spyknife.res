@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"373"	[$WIN32]
-		"ypos"			"r185"	[$WIN32]
+		"ypos"			"r186"	[$WIN32]
 		"zpos"			"-2"
 		"wide"			"150"
 		"tall"			"50"

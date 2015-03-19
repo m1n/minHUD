@@ -43,7 +43,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"8"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"105"
@@ -93,7 +93,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"43"
+			"xpos"			"38"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"35"
@@ -108,13 +108,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"fgcolor"		"HudWhite"
-			"font"			"Quake16"
+			"font"			"StickyCount"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"43"
+			"xpos"			"39"
 			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"35"
@@ -128,7 +128,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Quake16"
+			"font"			"StickyCount"
 			"fgcolor"		"HudShadow"
 		}		
 	}
@@ -150,11 +150,8 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
 			"wide"			"20"
-			"wide_minmode"	"14"
 			"tall"			"20"
-			"tall_minmode"	"14"
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red_faded"
@@ -167,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"43"
+			"xpos"			"38"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"35"
@@ -182,13 +179,13 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"fgcolor"		"HudWhite"
-			"font"			"Quake16"
+			"font"			"StickyCount"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"43"
+			"xpos"			"39"
 			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"35"
@@ -203,7 +200,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Quake16"
+			"font"			"StickyCount"
 			"fgcolor"		"HudShadow"
 		}			
 	}				

@@ -86,7 +86,7 @@
 			"ControlName" 	"ImagePanel"
 			"fieldName" 	"PanelBottom"
 			"xpos" 			"0"
-			"ypos"			"15"
+			"ypos"			"16"
 			"zpos" 			"-1"
 			"wide" 			"160"
 			"tall" 			"4"
@@ -101,7 +101,7 @@
 			{
 			"ControlName" 	"ImagePanel"
 			"fieldName" 	"PanelRight"
-			"xpos" 			"157"
+			"xpos" 			"158"
 			"ypos"			"0"
 			"zpos" 			"-1"
 			"wide" 			"4"
@@ -121,7 +121,7 @@
 				"xpos"			"50"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"90"
+				"wide"			"75"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -293,7 +293,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 255 255 255"
+				"fgcolor"		"255 255 255 255"
 			}
 			"chargeamountBG"
 			{
