@@ -38,11 +38,11 @@ How to mess with your HUD
 
 #####Changing the size
 - Change the number "font" value.**
-	- Valid sizes are 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, and 44
+> Valid sizes are 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, and 44
 
-    - EXAMPLES:
-	    - "Crosshair32" --> "Crosshair36"
-        - "Outline32" --> "Outline36"
+ >EXAMPLES:
+>- "Crosshair32" --> "Crosshair36"
+>- "Outline32" --> "Outline36"
 
 #####Enabling/Disabling outlines
 - Change the "font" value from "Crosshair#" to "Outline#" or vice-versa
@@ -50,16 +50,16 @@ How to mess with your HUD
 	
 #####Animating your crosshair
 - Go to your minHUD/scripts folder and replace "CROSSHAIRNAME" with the field name of your crosshair (OpenCrossDot, QuakeCross, TFLogo, etc.)
-    - Default is to flash red when you do damage and return to white. Replace the "255 255 255 255" with the same RGB code as your crosshair if you use a different one
+    > Default animation is to flash red when you do damage and return to white. Replace the "255 255 255 255" with the same RGB code as your crosshair if you use a different one
 	
 
 ##Changing the colors of your HUD
 
 - Open "/minHUD-master/"
 - Go to "/minHUD-master/resource/schemes/"
-	-	Inside should be 9 .res files
+	>	Inside should be 9 .res files
 	
 - Open "clientscheme_colors.res"
-	- any change you make here WILL NOT TAKE EFFECT UNTIL YOU RESTART TF2.
+	> Any changes you make here WILL NOT TAKE EFFECT UNTIL YOU RESTART TF2.
 	
 - At the top of the file is most of the stuff you're going to want to change if you're just changing the color of your in game colors. Most of the names are pretty self explanitory, so just replace the RGB codes with whatever you want
