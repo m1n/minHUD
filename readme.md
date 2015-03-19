@@ -37,7 +37,7 @@ How to mess with your HUD
 - Adjust the "xpos" and "ypos" values of your crosshair. For more precise movements, try adjusting the "wide" and "tall" values.
 
 #####Changing the size
-- Change the number "font" value.**
+- Change the number of the "font" value.
 > Valid sizes are 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, and 44
 
  >EXAMPLES:
@@ -47,11 +47,9 @@ How to mess with your HUD
 #####Enabling/Disabling outlines
 - Change the "font" value from "Crosshair#" to "Outline#" or vice-versa
 
-	
 #####Animating your crosshair
 - Go to your minHUD/scripts folder and replace "CROSSHAIRNAME" with the field name of your crosshair (OpenCrossDot, QuakeCross, TFLogo, etc.)
     > Default animation is to flash red when you do damage and return to white. Replace the "255 255 255 255" with the same RGB code as your crosshair if you use a different one
-	
 
 ##Changing the colors of your HUD
 
